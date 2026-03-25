@@ -1,0 +1,1348 @@
+{
+  "session": "2026-regular",
+  "meeting_id": "79719",
+  "date": "2026-02-17",
+  "title": "House - Investigatory Subcommittee (Room 315)\nAdjourned\n2026-02-17 10:33-10:47",
+  "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260217/-1/79719",
+  "stream_url": "https://sg002-live.sliq.net/00293-vod-2/_definst_/2026/02/17/House%20-%20Investigatory%20Subcommittee_2026-02-17-10.33.46_79719_34.mp4/playlist.m3u8",
+  "duration_seconds": 826.9,
+  "whisper_model": "base",
+  "transcribed_at": "2026-03-25T12:43:06.026760",
+  "committee": "House Investigatory Subcommittee",
+  "day_of_week": "Tuesday",
+  "start_time": "10:33 AM",
+  "end_time": "10:47 AM",
+  "location": "Room 315",
+  "bills_discussed": [],
+  "votes": [],
+  "speaker_map": [
+    {
+      "name": "Andrea Romero",
+      "role": "Chair",
+      "party": "D",
+      "confidence": "high"
+    },
+    {
+      "name": "Mariana Anaya",
+      "role": "Member",
+      "party": "D",
+      "confidence": "high"
+    },
+    {
+      "name": "William Hall",
+      "role": "Member",
+      "party": "R",
+      "confidence": "high"
+    },
+    {
+      "name": "Andrea Reeb",
+      "role": "Member",
+      "party": "R",
+      "confidence": "high"
+    },
+    {
+      "name": "Jayden",
+      "role": "Committee Clerk",
+      "party": "N/A",
+      "confidence": "medium"
+    }
+  ],
+  "summary": "This was the first official meeting of the bipartisan House Investigatory Subcommittee (informally called the Truth Commission) tasked with investigating Jeffrey Epstein's criminal operations at Zoro Ranch. The committee members introduced themselves, highlighting their backgrounds in survivor advocacy, law enforcement, and prosecution, and the Chair outlined the subcommittee's $2 million budget, subpoena powers, and plans for a public tip line and website.",
+  "num_turns": 17,
+  "num_speakers": 5,
+  "turns": [
+    {
+      "speaker": "Chair Rep. Andrea Romero",
+      "timestamp": "00:00",
+      "text": "I call this meeting to order. This is our first official meeting of the subcommittee to investigate the Zoro Ranch, Jeffrey Epstein's crimes in New Mexico. Please call the roll."
+    },
+    {
+      "speaker": "Committee Clerk Jayden",
+      "timestamp": "00:14",
+      "text": "Thank you, Madam Chair. Representative Anaya."
+    },
+    {
+      "speaker": "Rep. Mariana Anaya",
+      "timestamp": "00:17",
+      "text": "Present."
+    },
+    {
+      "speaker": "Committee Clerk Jayden",
+      "timestamp": "00:18",
+      "text": "Representative Hall."
+    },
+    {
+      "speaker": "Rep. William Hall",
+      "timestamp": "00:19",
+      "text": "Here."
+    },
+    {
+      "speaker": "Committee Clerk Jayden",
+      "timestamp": "00:20",
+      "text": "Representative Reeb."
+    },
+    {
+      "speaker": "Rep. Andrea Reeb",
+      "timestamp": "00:21",
+      "text": "Here."
+    },
+    {
+      "speaker": "Committee Clerk Jayden",
+      "timestamp": "00:23",
+      "text": "Chair Romero."
+    },
+    {
+      "speaker": "Chair Rep. Andrea Romero",
+      "timestamp": "00:24",
+      "text": "Here."
+    },
+    {
+      "speaker": "Committee Clerk Jayden",
+      "timestamp": "00:25",
+      "text": "Madam Chair, you have a quorum."
+    },
+    {
+      "speaker": "Chair Rep. Andrea Romero",
+      "timestamp": "00:27",
+      "text": "Thank you, Jayden. All right. I'd love to give the committee an opportunity to go ahead and introduce themselves, their districts, and why you've agreed to be part of this formed committee."
+    },
+    {
+      "speaker": "Rep. Mariana Anaya",
+      "timestamp": "00:44",
+      "text": "All right, thank you, Madam Chair. Thank you to my colleagues, representatives, and thank you all for being here as well. My name is Representative Mariana Anaya. I represent House District 18, which is in Albuquerque. It's the UNM and Nob Hill area. And I'm here because Representative Romero so kindly asked me to be a part of this resolution, which is now turned into a commission. My background is really in advocacy for survivors and working with the Coalition of Sexual Assault Programs throughout the years."
+    },
+    {
+      "speaker": "Rep. William Hall",
+      "timestamp": "01:22",
+      "text": "Morning, I'm Representative William Hall. I represent District 3, which is San Juan County, the Bloomfield and Aztec area. I'm honored to be a part of this. I was asked by Representative Romero. I'm a retired FBI agent and I'm familiar with similar investigations, though not to this scale. I look forward to finding the truth of what has gone on in our great state. Thank you."
+    },
+    {
+      "speaker": "Rep. Andrea Reeb",
+      "timestamp": "01:50",
+      "text": "Good morning. I'm Andrea Reeb. I represent District 64, which is Roosevelt, Curry, and Chaves County. My background is that I've been a prosecutor for 30 years and focused a lot on—I guess my specialty was prosecuting sexual assault crimes, especially dealing with minors. So when I was asked to be on this committee, it was very interesting and something I wanted to do because if there is anything that we can do to bring justice or facts out about what happened to all these victims that we're hearing about, and maybe who helped perpetrate these crimes, that's something that I am very interested in. So I'm very happy and thankful to be on the committee. Thank you."
+    },
+    {
+      "speaker": "Chair Rep. Andrea Romero",
+      "timestamp": "02:38",
+      "text": "Thank you, committee members. For the public, I've been honored with the chair of this committee. Officially, it's a House Investigatory Subcommittee. This is a parliamentary procedure of the House. We have been informally calling it the Truth Commission because that is what this commission is charged to do. Just on a small background on me, I've been serving in the state house now for four terms. I serve in Santa Fe County. Many of our community members have discussed in passing what Jeffrey Epstein's activities were here in New Mexico as a known subject in the community. He had a reputation. There are so many community takes about what happened here that we have yet to put on the record. As I had understood and started to unpack this story of Jeffrey Epstein's activities nationally and internationally that has been well reported in the news, Zoro Ranch kept coming up as a place that he sought refuge with a number of victims who have gone on the record that were trafficked here, that were abused here, and we have had no official public record of those crimes. That was alarming to me as I was getting to know this news and information and starting to put together a story for myself and talking to our community about what had happened at the ranch and why don't we know the extent of what occurred when it's being well reported elsewhere, what happened in other sites, New York, Florida, the island. It's so important for us to get the story straight and to get it right. For me, the commitment to figuring this out and knowing that we have a very important role to play for the truth and for justice, for victims to be able to go on a public government record that can really tell the truth about what went on—this is so critical. So I'm so grateful to members of the committee, to the leadership of Speaker Martinez, and to the House for taking this on and entrusting the four of us to develop this reporting and to make sure that the public knows what's gone on. So really, the mission and authority of the subcommittee—essentially, it's a bipartisan body, two Democrats, two Republicans—we are charged with conducting a full and transparent and legally rigorous fact-finding investigation into the criminal enterprises of Jeffrey Epstein and specifically how New Mexico was used in those operations. Me, as the chair, this committee will answer to survivors, the public, and of course the truth. We have a budget of $2 million and we will be looking to staff our subcommittee with legal experts, experienced investigators, project managers, and support staff that will be necessary to process through a substantial volume of evidence and new evidentiary findings, depending on different interviews and compilations of investigations that we will be going through. Staffing will be conducted promptly through our Legislative Council Service following the session, which ends on Thursday at noon, and these investigations will proceed without delay. For the public, we will be setting up a public website where we will provide public information. We will be posting regularly on that website any information or business that we are doing as a committee and anything that is available to go public. This committee will decide what gets allowed to be publicized, and of course, with the sensitivity of ensuring that any survivors or victims that want to stay off the record do indeed stay off the record and their identities stay anonymous while we are able to continue to conduct our work and put a story together. We will also have a tip line available on this website and we are also working with the New Mexico Department of Justice as soon as our technology gets set up. For now, we are already working with the New Mexico Department of Justice to refer various tips and various pieces of information that are already coming into our subcommittee to be able to vet through. So the business of the subcommittee has already commenced. What we'd like to say to the public as well is while we don't have an official line yet, anyone that has information about Jeffrey Epstein's activities in New Mexico, we would love for you to come forward to us. We will provide a safe space to have that conversation and have the legal infrastructure to ensure that we can get you on the record. And if you would like your identity protected, you can come forward. This is so critical for us to put a valid story together for the public to understand, but we want to welcome those who have suffered under the hands of Jeffrey Epstein and other perpetrators surrounding him to be able to come forward to this subcommittee. Again, we're also working with law enforcement, our public safety department, and local law enforcement to ensure that if there was any reporting that happened in the past and any stories that we need to put together now, we may be also reaching out to those who may be identified in these various documents that we are already starting to unpack. Our subcommittee also has subpoena power and legal authority. So as we continue to formally commence this subcommittee, subpoenas will very likely be issued for those that do not want to voluntarily come forward and speak to us as a subcommittee. We will not only be scrutinizing and reviewing all available documentation for subpoenas to be promulgated to different folks, but there are already folks of interest pertaining to Epstein's activities and criminal conduct that we will be looking into. So again, the committee will begin issuing subpoenas to these persons of interest without delay. And although the investigation is fluid, as leads and persons of interest and areas of inquiry emerge, the committee will act on them as a body and will follow evidence wherever it leads. I again want to thank our subcommittee members for taking this time. I know this will take a lot of personal attention and time, but your commitment to transparency, survivor-centered inquiry, and accountability is duly noted and I think has all the respect from myself and certainly from many people in our community. With a unanimous vote of approval for the subcommittee, we certainly have the approval of the New Mexico House. We will continue to provide more detailed public updates as this committee advances and would love for the public to join us on this forthcoming website. We're happy to provide alerts to anyone on any updates that the subcommittee has for you as well, and we can do that following the meeting. We also have public comment following the formal portion of our meeting and for now, I'd be happy to take any comments or questions from the committee should you have any."
+    },
+    {
+      "speaker": "Rep. Mariana Anaya",
+      "timestamp": "11:22",
+      "text": "I just wanted to thank the chair for getting us to this organizational meeting right away and also just let members of the audience and the public know that this commission is also really dedicated to being trauma-informed in the way that we go about things—to be victim-centered, which I know victims and survivors haven't necessarily been afforded in the other investigations that have happened. And also, for those folks who need help right now, the New Mexico Coalition of Sexual Assault Programs is incredible here in our state and you can visit nmcsap.org if you need to reach out to somebody right now."
+    },
+    {
+      "speaker": "Chair Rep. Andrea Romero",
+      "timestamp": "12:03",
+      "text": "Thank you, Representative Anaya. Any other questions or comments from the committee? Okay, we can go ahead and go to public comments. This has been a quick turnaround for this committee. We have a minute opportunity for folks; if you have an inquiry, we can essentially compile those and we'd be happy to get back to you so that we can keep a record of any inquiries that we have. If you have information, this is a forum to be able to provide that. There's a number of people online, but we can give them 10 minutes of public comments with a minute per person if there's anyone that wants to speak. And for folks online, feel free to raise your hand. All right, seeing no hands in our gallery here nor online, I think that concludes our meeting. We'd be happy to take any questions following the committee hearing. Thank you. With that, we're adjourned."
+    }
+  ],
+  "full_text": "[Chair Rep. Andrea Romero]: I call this meeting to order. This is our first official meeting of the subcommittee to investigate the Zoro Ranch, Jeffrey Epstein's crimes in New Mexico. Please call the roll.\n\n[Committee Clerk Jayden]: Thank you, Madam Chair. Representative Anaya.\n\n[Rep. Mariana Anaya]: Present.\n\n[Committee Clerk Jayden]: Representative Hall.\n\n[Rep. William Hall]: Here.\n\n[Committee Clerk Jayden]: Representative Reeb.\n\n[Rep. Andrea Reeb]: Here.\n\n[Committee Clerk Jayden]: Chair Romero.\n\n[Chair Rep. Andrea Romero]: Here.\n\n[Committee Clerk Jayden]: Madam Chair, you have a quorum.\n\n[Chair Rep. Andrea Romero]: Thank you, Jayden. All right. I'd love to give the committee an opportunity to go ahead and introduce themselves, their districts, and why you've agreed to be part of this formed committee.\n\n[Rep. Mariana Anaya]: All right, thank you, Madam Chair. Thank you to my colleagues, representatives, and thank you all for being here as well. My name is Representative Mariana Anaya. I represent House District 18, which is in Albuquerque. It's the UNM and Nob Hill area. And I'm here because Representative Romero so kindly asked me to be a part of this resolution, which is now turned into a commission. My background is really in advocacy for survivors and working with the Coalition of Sexual Assault Programs throughout the years.\n\n[Rep. William Hall]: Morning, I'm Representative William Hall. I represent District 3, which is San Juan County, the Bloomfield and Aztec area. I'm honored to be a part of this. I was asked by Representative Romero. I'm a retired FBI agent and I'm familiar with similar investigations, though not to this scale. I look forward to finding the truth of what has gone on in our great state. Thank you.\n\n[Rep. Andrea Reeb]: Good morning. I'm Andrea Reeb. I represent District 64, which is Roosevelt, Curry, and Chaves County. My background is that I've been a prosecutor for 30 years and focused a lot on—I guess my specialty was prosecuting sexual assault crimes, especially dealing with minors. So when I was asked to be on this committee, it was very interesting and something I wanted to do because if there is anything that we can do to bring justice or facts out about what happened to all these victims that we're hearing about, and maybe who helped perpetrate these crimes, that's something that I am very interested in. So I'm very happy and thankful to be on the committee. Thank you.\n\n[Chair Rep. Andrea Romero]: Thank you, committee members. For the public, I've been honored with the chair of this committee. Officially, it's a House Investigatory Subcommittee. This is a parliamentary procedure of the House. We have been informally calling it the Truth Commission because that is what this commission is charged to do. Just on a small background on me, I've been serving in the state house now for four terms. I serve in Santa Fe County. Many of our community members have discussed in passing what Jeffrey Epstein's activities were here in New Mexico as a known subject in the community. He had a reputation. There are so many community takes about what happened here that we have yet to put on the record. As I had understood and started to unpack this story of Jeffrey Epstein's activities nationally and internationally that has been well reported in the news, Zoro Ranch kept coming up as a place that he sought refuge with a number of victims who have gone on the record that were trafficked here, that were abused here, and we have had no official public record of those crimes. That was alarming to me as I was getting to know this news and information and starting to put together a story for myself and talking to our community about what had happened at the ranch and why don't we know the extent of what occurred when it's being well reported elsewhere, what happened in other sites, New York, Florida, the island. It's so important for us to get the story straight and to get it right. For me, the commitment to figuring this out and knowing that we have a very important role to play for the truth and for justice, for victims to be able to go on a public government record that can really tell the truth about what went on—this is so critical. So I'm so grateful to members of the committee, to the leadership of Speaker Martinez, and to the House for taking this on and entrusting the four of us to develop this reporting and to make sure that the public knows what's gone on. So really, the mission and authority of the subcommittee—essentially, it's a bipartisan body, two Democrats, two Republicans—we are charged with conducting a full and transparent and legally rigorous fact-finding investigation into the criminal enterprises of Jeffrey Epstein and specifically how New Mexico was used in those operations. Me, as the chair, this committee will answer to survivors, the public, and of course the truth. We have a budget of $2 million and we will be looking to staff our subcommittee with legal experts, experienced investigators, project managers, and support staff that will be necessary to process through a substantial volume of evidence and new evidentiary findings, depending on different interviews and compilations of investigations that we will be going through. Staffing will be conducted promptly through our Legislative Council Service following the session, which ends on Thursday at noon, and these investigations will proceed without delay. For the public, we will be setting up a public website where we will provide public information. We will be posting regularly on that website any information or business that we are doing as a committee and anything that is available to go public. This committee will decide what gets allowed to be publicized, and of course, with the sensitivity of ensuring that any survivors or victims that want to stay off the record do indeed stay off the record and their identities stay anonymous while we are able to continue to conduct our work and put a story together. We will also have a tip line available on this website and we are also working with the New Mexico Department of Justice as soon as our technology gets set up. For now, we are already working with the New Mexico Department of Justice to refer various tips and various pieces of information that are already coming into our subcommittee to be able to vet through. So the business of the subcommittee has already commenced. What we'd like to say to the public as well is while we don't have an official line yet, anyone that has information about Jeffrey Epstein's activities in New Mexico, we would love for you to come forward to us. We will provide a safe space to have that conversation and have the legal infrastructure to ensure that we can get you on the record. And if you would like your identity protected, you can come forward. This is so critical for us to put a valid story together for the public to understand, but we want to welcome those who have suffered under the hands of Jeffrey Epstein and other perpetrators surrounding him to be able to come forward to this subcommittee. Again, we're also working with law enforcement, our public safety department, and local law enforcement to ensure that if there was any reporting that happened in the past and any stories that we need to put together now, we may be also reaching out to those who may be identified in these various documents that we are already starting to unpack. Our subcommittee also has subpoena power and legal authority. So as we continue to formally commence this subcommittee, subpoenas will very likely be issued for those that do not want to voluntarily come forward and speak to us as a subcommittee. We will not only be scrutinizing and reviewing all available documentation for subpoenas to be promulgated to different folks, but there are already folks of interest pertaining to Epstein's activities and criminal conduct that we will be looking into. So again, the committee will begin issuing subpoenas to these persons of interest without delay. And although the investigation is fluid, as leads and persons of interest and areas of inquiry emerge, the committee will act on them as a body and will follow evidence wherever it leads. I again want to thank our subcommittee members for taking this time. I know this will take a lot of personal attention and time, but your commitment to transparency, survivor-centered inquiry, and accountability is duly noted and I think has all the respect from myself and certainly from many people in our community. With a unanimous vote of approval for the subcommittee, we certainly have the approval of the New Mexico House. We will continue to provide more detailed public updates as this committee advances and would love for the public to join us on this forthcoming website. We're happy to provide alerts to anyone on any updates that the subcommittee has for you as well, and we can do that following the meeting. We also have public comment following the formal portion of our meeting and for now, I'd be happy to take any comments or questions from the committee should you have any.\n\n[Rep. Mariana Anaya]: I just wanted to thank the chair for getting us to this organizational meeting right away and also just let members of the audience and the public know that this commission is also really dedicated to being trauma-informed in the way that we go about things—to be victim-centered, which I know victims and survivors haven't necessarily been afforded in the other investigations that have happened. And also, for those folks who need help right now, the New Mexico Coalition of Sexual Assault Programs is incredible here in our state and you can visit nmcsap.org if you need to reach out to somebody right now.\n\n[Chair Rep. Andrea Romero]: Thank you, Representative Anaya. Any other questions or comments from the committee? Okay, we can go ahead and go to public comments. This has been a quick turnaround for this committee. We have a minute opportunity for folks; if you have an inquiry, we can essentially compile those and we'd be happy to get back to you so that we can keep a record of any inquiries that we have. If you have information, this is a forum to be able to provide that. There's a number of people online, but we can give them 10 minutes of public comments with a minute per person if there's anyone that wants to speak. And for folks online, feel free to raise your hand. All right, seeing no hands in our gallery here nor online, I think that concludes our meeting. We'd be happy to take any questions following the committee hearing. Thank you. With that, we're adjourned.",
+  "raw_segments": [
+    {
+      "start": 0.0,
+      "end": 1.96,
+      "text": "all this meeting to order."
+    },
+    {
+      "start": 1.96,
+      "end": 4.36,
+      "text": "This is our first official meeting"
+    },
+    {
+      "start": 4.36,
+      "end": 6.8,
+      "text": "of the subcommittee to investigate"
+    },
+    {
+      "start": 7.76,
+      "end": 12.76,
+      "text": "the Zoro Ranch Jeffrey Epstein's crimes in New Mexico."
+    },
+    {
+      "start": 13.12,
+      "end": 14.52,
+      "text": "Please call the roll."
+    },
+    {
+      "start": 14.52,
+      "end": 15.72,
+      "text": "Thank you, Madam Chair."
+    },
+    {
+      "start": 15.72,
+      "end": 17.36,
+      "text": "Representative Anaya."
+    },
+    {
+      "start": 17.36,
+      "end": 18.36,
+      "text": "Present."
+    },
+    {
+      "start": 18.36,
+      "end": 19.72,
+      "text": "Representative Paul."
+    },
+    {
+      "start": 19.72,
+      "end": 20.8,
+      "text": "Here."
+    },
+    {
+      "start": 20.8,
+      "end": 21.88,
+      "text": "Representative Reeb."
+    },
+    {
+      "start": 21.88,
+      "end": 23.2,
+      "text": "Here."
+    },
+    {
+      "start": 23.2,
+      "end": 24.72,
+      "text": "Chair Romero."
+    },
+    {
+      "start": 24.72,
+      "end": 25.56,
+      "text": "Here."
+    },
+    {
+      "start": 25.56,
+      "end": 27.08,
+      "text": "Madam Chair, you have a quorum."
+    },
+    {
+      "start": 27.08,
+      "end": 28.68,
+      "text": "Thank you, Jayden."
+    },
+    {
+      "start": 28.68,
+      "end": 29.52,
+      "text": "All right."
+    },
+    {
+      "start": 29.52,
+      "end": 32.24,
+      "text": "I'd love to give the committee an opportunity"
+    },
+    {
+      "start": 32.24,
+      "end": 35.36,
+      "text": "to go ahead and introduce themselves districts"
+    },
+    {
+      "start": 35.36,
+      "end": 39.76,
+      "text": "and why you've agreed to be part of this formed committee."
+    },
+    {
+      "start": 44.88,
+      "end": 47.04,
+      "text": "All right, thank you, Madam Chair."
+    },
+    {
+      "start": 47.04,
+      "end": 48.8,
+      "text": "Thank you to my colleagues, representatives,"
+    },
+    {
+      "start": 48.8,
+      "end": 50.64,
+      "text": "and thank you all for being here as well."
+    },
+    {
+      "start": 50.64,
+      "end": 52.84,
+      "text": "My name is Representative Mariana Anaya."
+    },
+    {
+      "start": 52.84,
+      "end": 55.96,
+      "text": "I represent House District 18,"
+    },
+    {
+      "start": 55.96,
+      "end": 57.4,
+      "text": "which is in Albuquerque."
+    },
+    {
+      "start": 57.4,
+      "end": 61.8,
+      "text": "It's the UNM and Dom Hill area."
+    },
+    {
+      "start": 61.8,
+      "end": 65.4,
+      "text": "And I'm here because Representative Romero"
+    },
+    {
+      "start": 65.4,
+      "end": 70.36,
+      "text": "so kindly asked me to be a part of this resolution,"
+    },
+    {
+      "start": 70.36,
+      "end": 72.64,
+      "text": "which is now turned into a commission."
+    },
+    {
+      "start": 72.64,
+      "end": 75.92,
+      "text": "My background is really an advocacy for survivors"
+    },
+    {
+      "start": 75.92,
+      "end": 78.24,
+      "text": "and working with the Coalition of Sexual Assault Programs"
+    },
+    {
+      "start": 78.24,
+      "end": 79.08,
+      "text": "throughout the years."
+    },
+    {
+      "start": 82.84,
+      "end": 85.72,
+      "text": "Morning, I'm representing William Hall."
+    },
+    {
+      "start": 85.72,
+      "end": 88.36,
+      "text": "I represent District 3, which is San Juan County,"
+    },
+    {
+      "start": 88.36,
+      "end": 90.52,
+      "text": "Bloomfield, Mass Tech area."
+    },
+    {
+      "start": 90.52,
+      "end": 91.84,
+      "text": "I'm honored to be a part of this."
+    },
+    {
+      "start": 91.84,
+      "end": 93.64,
+      "text": "I was asked by Representative Romero."
+    },
+    {
+      "start": 93.64,
+      "end": 96.84,
+      "text": "I'm a retired FBI agent and I'm familiar"
+    },
+    {
+      "start": 96.84,
+      "end": 101.68,
+      "text": "with similar investigations, not to this scale."
+    },
+    {
+      "start": 101.68,
+      "end": 104.56,
+      "text": "And I look forward to finding the truth"
+    },
+    {
+      "start": 104.56,
+      "end": 106.92,
+      "text": "of what has gone on in our great state."
+    },
+    {
+      "start": 106.92,
+      "end": 107.76,
+      "text": "Thank you."
+    },
+    {
+      "start": 110.24,
+      "end": 110.96,
+      "text": "Good morning."
+    },
+    {
+      "start": 110.96,
+      "end": 112.52,
+      "text": "I'm Andrea Reeb."
+    },
+    {
+      "start": 112.52,
+      "end": 116.6,
+      "text": "I represent District 64, which is Rosevelt Curry"
+    },
+    {
+      "start": 116.6,
+      "end": 118.6,
+      "text": "and Chavez County."
+    },
+    {
+      "start": 118.6,
+      "end": 121.44,
+      "text": "And my background a little bit is,"
+    },
+    {
+      "start": 121.44,
+      "end": 123.52,
+      "text": "I've been a prosecutor for 30 years"
+    },
+    {
+      "start": 123.52,
+      "end": 127.64,
+      "text": "and focused a lot on, I guess my kind of specialty"
+    },
+    {
+      "start": 127.64,
+      "end": 130.4,
+      "text": "was prosecuting sexual assault crimes,"
+    },
+    {
+      "start": 130.4,
+      "end": 132.0,
+      "text": "especially dealing with minors."
+    },
+    {
+      "start": 132.0,
+      "end": 134.32,
+      "text": "And so when I was asked to be on this committee,"
+    },
+    {
+      "start": 135.32,
+      "end": 138.36,
+      "text": "it was very interesting and something I wanted to do"
+    },
+    {
+      "start": 138.36,
+      "end": 140.72,
+      "text": "because if there is anything that we can do"
+    },
+    {
+      "start": 140.72,
+      "end": 143.96,
+      "text": "to bring justice or facts out about what happened"
+    },
+    {
+      "start": 143.96,
+      "end": 147.72,
+      "text": "to all these victims that we're hearing about"
+    },
+    {
+      "start": 147.72,
+      "end": 150.76,
+      "text": "and maybe who helped perpetrate these crimes,"
+    },
+    {
+      "start": 150.76,
+      "end": 153.04,
+      "text": "that's something that I am very interested in."
+    },
+    {
+      "start": 153.04,
+      "end": 156.2,
+      "text": "So I'm very happy and thankful to be on the committee."
+    },
+    {
+      "start": 156.2,
+      "end": 157.04,
+      "text": "Thank you."
+    },
+    {
+      "start": 158.16,
+      "end": 160.68,
+      "text": "Thank you, committee members."
+    },
+    {
+      "start": 160.68,
+      "end": 163.04,
+      "text": "For the public, I've been honored"
+    },
+    {
+      "start": 163.04,
+      "end": 165.72,
+      "text": "with the chair of this committee."
+    },
+    {
+      "start": 165.72,
+      "end": 169.04,
+      "text": "Officially, it's a House Investigatory Subcommittee."
+    },
+    {
+      "start": 169.04,
+      "end": 172.4,
+      "text": "This is a parliamentary procedure of the House."
+    },
+    {
+      "start": 172.4,
+      "end": 176.4,
+      "text": "We have been informally calling it the Truth Commission"
+    },
+    {
+      "start": 176.4,
+      "end": 180.0,
+      "text": "because that is what this commission is charged to do."
+    },
+    {
+      "start": 180.0,
+      "end": 182.96,
+      "text": "Just on a small background on me,"
+    },
+    {
+      "start": 182.96,
+      "end": 186.24,
+      "text": "I've been serving in the state house now for four terms."
+    },
+    {
+      "start": 186.24,
+      "end": 188.4,
+      "text": "I serve in Santa Fe County."
+    },
+    {
+      "start": 188.4,
+      "end": 191.88,
+      "text": "Many of our community members have discussed"
+    },
+    {
+      "start": 191.88,
+      "end": 196.48,
+      "text": "in passing what Jeffrey Epstein's activities were here"
+    },
+    {
+      "start": 196.48,
+      "end": 200.68,
+      "text": "in New Mexico as a known subject in the community."
+    },
+    {
+      "start": 200.68,
+      "end": 202.24,
+      "text": "He had a reputation."
+    },
+    {
+      "start": 203.16,
+      "end": 208.16,
+      "text": "There are so many community takes about what happened here"
+    },
+    {
+      "start": 208.52,
+      "end": 210.84,
+      "text": "that we have yet to put on the record."
+    },
+    {
+      "start": 210.84,
+      "end": 215.68,
+      "text": "As I had understood and started to unpack this story"
+    },
+    {
+      "start": 215.68,
+      "end": 218.28,
+      "text": "of Jeffrey Epstein's activities nationally"
+    },
+    {
+      "start": 218.28,
+      "end": 222.68,
+      "text": "and internationally that has been well reported in the news,"
+    },
+    {
+      "start": 222.68,
+      "end": 227.68,
+      "text": "Zoro Ranch kept coming up as a place that he sought refuge"
+    },
+    {
+      "start": 228.08,
+      "end": 231.44,
+      "text": "with a number of victims who have gone on the record"
+    },
+    {
+      "start": 231.44,
+      "end": 234.56,
+      "text": "that were trafficked here, that were abused here,"
+    },
+    {
+      "start": 234.56,
+      "end": 238.8,
+      "text": "and we have had no official public record of those crimes."
+    },
+    {
+      "start": 240.08,
+      "end": 244.6,
+      "text": "That was alarming to me as I was getting to know this news"
+    },
+    {
+      "start": 244.6,
+      "end": 247.32,
+      "text": "and information and starting to put together a story"
+    },
+    {
+      "start": 247.32,
+      "end": 250.8,
+      "text": "for myself and talking to our community"
+    },
+    {
+      "start": 250.8,
+      "end": 254.48,
+      "text": "about what had happened at the ranch"
+    },
+    {
+      "start": 254.48,
+      "end": 258.96,
+      "text": "and why don't we know the extent of what occurred"
+    },
+    {
+      "start": 258.96,
+      "end": 261.72,
+      "text": "when it's being well reported elsewhere,"
+    },
+    {
+      "start": 261.72,
+      "end": 265.16,
+      "text": "what happened in other sites, New York, Florida,"
+    },
+    {
+      "start": 265.16,
+      "end": 270.16,
+      "text": "the island, it's so important for us to get the story"
+    },
+    {
+      "start": 271.44,
+      "end": 273.32,
+      "text": "straight and to get it right."
+    },
+    {
+      "start": 273.32,
+      "end": 277.96,
+      "text": "And for me, the commitment to figuring this out"
+    },
+    {
+      "start": 277.96,
+      "end": 280.64,
+      "text": "and knowing that we have in a very important role"
+    },
+    {
+      "start": 280.64,
+      "end": 285.08,
+      "text": "to play for the truth and for justice,"
+    },
+    {
+      "start": 285.08,
+      "end": 289.68,
+      "text": "for victims to be able to go on a public government record"
+    },
+    {
+      "start": 289.68,
+      "end": 294.32,
+      "text": "that can really tell the truth about what went on."
+    },
+    {
+      "start": 294.32,
+      "end": 296.28,
+      "text": "This is so critical."
+    },
+    {
+      "start": 296.28,
+      "end": 298.68,
+      "text": "So I'm so grateful to members of the committee"
+    },
+    {
+      "start": 298.68,
+      "end": 302.92,
+      "text": "to the leadership of Speaker Martinez and to the House"
+    },
+    {
+      "start": 302.92,
+      "end": 307.36,
+      "text": "for taking this on and entrusting the four of us"
+    },
+    {
+      "start": 307.36,
+      "end": 310.88,
+      "text": "to develop this reporting and to make sure"
+    },
+    {
+      "start": 310.88,
+      "end": 314.32,
+      "text": "that the public knows what's gone on."
+    },
+    {
+      "start": 314.32,
+      "end": 318.72,
+      "text": "So really the mission and authority of the subcommittee,"
+    },
+    {
+      "start": 318.72,
+      "end": 321.8,
+      "text": "essentially it's a bipartisan body, two Democrats,"
+    },
+    {
+      "start": 321.8,
+      "end": 325.28,
+      "text": "two Republicans were charged with conducting a full"
+    },
+    {
+      "start": 325.28,
+      "end": 327.84,
+      "text": "and transparent and legally rigorous"
+    },
+    {
+      "start": 327.84,
+      "end": 331.36,
+      "text": "fact-finding investigation into the criminal enterprises"
+    },
+    {
+      "start": 331.36,
+      "end": 334.72,
+      "text": "of Jeffrey Epstein and specifically how New Mexico"
+    },
+    {
+      "start": 334.72,
+      "end": 336.68,
+      "text": "was used in those operations."
+    },
+    {
+      "start": 337.52,
+      "end": 342.6,
+      "text": "The chair, me as the chair, this committee will answer"
+    },
+    {
+      "start": 342.6,
+      "end": 346.04,
+      "text": "to survivors, the public, and of course the truth."
+    },
+    {
+      "start": 346.92,
+      "end": 351.08,
+      "text": "We have a budget of $2 million and we will be looking"
+    },
+    {
+      "start": 351.08,
+      "end": 355.92,
+      "text": "to staff, our committee, subcommittee with legal experts,"
+    },
+    {
+      "start": 355.92,
+      "end": 359.28,
+      "text": "experienced investigators, project managers"
+    },
+    {
+      "start": 359.28,
+      "end": 362.6,
+      "text": "and support staff that will be necessary to process"
+    },
+    {
+      "start": 362.6,
+      "end": 365.52,
+      "text": "through a substantial volume of evidence"
+    },
+    {
+      "start": 365.52,
+      "end": 368.12,
+      "text": "and new evidentiary findings,"
+    },
+    {
+      "start": 368.12,
+      "end": 371.76,
+      "text": "depending on different interviews and compilations"
+    },
+    {
+      "start": 371.76,
+      "end": 375.64,
+      "text": "of investigations that we will be going through."
+    },
+    {
+      "start": 376.76,
+      "end": 379.24,
+      "text": "Staffing will be conducted promptly"
+    },
+    {
+      "start": 379.24,
+      "end": 383.2,
+      "text": "through our legislative council following the session,"
+    },
+    {
+      "start": 383.2,
+      "end": 386.44,
+      "text": "which ends on Thursday at noon"
+    },
+    {
+      "start": 386.44,
+      "end": 389.72,
+      "text": "and these investigations will proceed without delay."
+    },
+    {
+      "start": 390.72,
+      "end": 395.28,
+      "text": "For the public, we will be setting up a public website"
+    },
+    {
+      "start": 396.36,
+      "end": 400.0,
+      "text": "that where we have public information to provide,"
+    },
+    {
+      "start": 400.0,
+      "end": 403.36,
+      "text": "we will be posting regularly on that website,"
+    },
+    {
+      "start": 403.36,
+      "end": 406.8,
+      "text": "any information or business that we are doing as a committee"
+    },
+    {
+      "start": 406.8,
+      "end": 409.72,
+      "text": "and anything that is available to go public."
+    },
+    {
+      "start": 409.72,
+      "end": 414.12,
+      "text": "This committee will decide what gets allowed"
+    },
+    {
+      "start": 414.12,
+      "end": 418.12,
+      "text": "to be publicized and of course with the sensitivity"
+    },
+    {
+      "start": 418.12,
+      "end": 421.32,
+      "text": "of ensuring that any survivors or victims"
+    },
+    {
+      "start": 421.32,
+      "end": 425.36,
+      "text": "that want to stay off the record do indeed stay off the record"
+    },
+    {
+      "start": 425.36,
+      "end": 428.92,
+      "text": "and their identities stay anonymous"
+    },
+    {
+      "start": 428.92,
+      "end": 431.24,
+      "text": "while we are able to continue to conduct our work"
+    },
+    {
+      "start": 431.24,
+      "end": 433.36,
+      "text": "and put a story together."
+    },
+    {
+      "start": 433.36,
+      "end": 437.08,
+      "text": "We will also have a tip line available on this website"
+    },
+    {
+      "start": 437.08,
+      "end": 439.36,
+      "text": "and we are also working with the New Mexico Department"
+    },
+    {
+      "start": 439.36,
+      "end": 444.36,
+      "text": "of Justice as soon as our technology gets set up."
+    },
+    {
+      "start": 444.64,
+      "end": 447.32,
+      "text": "For now, we are already working with the New Mexico Department"
+    },
+    {
+      "start": 447.32,
+      "end": 450.32,
+      "text": "of Justice to refer various tips"
+    },
+    {
+      "start": 450.32,
+      "end": 453.6,
+      "text": "and various pieces of information"
+    },
+    {
+      "start": 453.6,
+      "end": 456.92,
+      "text": "that are already coming in to our subcommittee"
+    },
+    {
+      "start": 456.92,
+      "end": 459.0,
+      "text": "to be able to vet through."
+    },
+    {
+      "start": 459.0,
+      "end": 463.08,
+      "text": "So the business of the subcommittee has already commenced."
+    },
+    {
+      "start": 465.24,
+      "end": 468.08,
+      "text": "What we'd like to say to the public as well"
+    },
+    {
+      "start": 468.08,
+      "end": 472.36,
+      "text": "is while we don't have an official line,"
+    },
+    {
+      "start": 472.36,
+      "end": 476.12,
+      "text": "anyone that has information about Jeffrey Epstein's activities"
+    },
+    {
+      "start": 476.12,
+      "end": 481.08,
+      "text": "in New Mexico, we would love for you to come forward to us."
+    },
+    {
+      "start": 481.08,
+      "end": 485.24,
+      "text": "We will provide a safe space to have that conversation"
+    },
+    {
+      "start": 485.24,
+      "end": 489.64,
+      "text": "and have the legal infrastructure to ensure"
+    },
+    {
+      "start": 489.64,
+      "end": 491.52,
+      "text": "that we can get you on the record."
+    },
+    {
+      "start": 491.52,
+      "end": 495.28,
+      "text": "And if you would like your identity protected,"
+    },
+    {
+      "start": 495.28,
+      "end": 497.32,
+      "text": "you can come forward."
+    },
+    {
+      "start": 497.32,
+      "end": 500.96,
+      "text": "This is so critical for us to put a valid story together"
+    },
+    {
+      "start": 500.96,
+      "end": 505.04,
+      "text": "for the public to understand, but we want to welcome those"
+    },
+    {
+      "start": 505.04,
+      "end": 508.56,
+      "text": "who have suffered under the hands of Jeffrey Epstein"
+    },
+    {
+      "start": 508.56,
+      "end": 511.44,
+      "text": "and other perpetrators surrounding him"
+    },
+    {
+      "start": 511.44,
+      "end": 514.6,
+      "text": "to be able to come forward to this subcommittee."
+    },
+    {
+      "start": 516.84,
+      "end": 519.64,
+      "text": "Again, we're also working with law enforcement,"
+    },
+    {
+      "start": 519.64,
+      "end": 522.6,
+      "text": "our public safety department and local law enforcement"
+    },
+    {
+      "start": 522.6,
+      "end": 525.52,
+      "text": "to ensure that if there was any reporting"
+    },
+    {
+      "start": 525.52,
+      "end": 527.2,
+      "text": "that happened in the past"
+    },
+    {
+      "start": 527.2,
+      "end": 530.28,
+      "text": "and any stories that we need to put together now,"
+    },
+    {
+      "start": 530.28,
+      "end": 534.16,
+      "text": "you may be also reaching out to those"
+    },
+    {
+      "start": 534.16,
+      "end": 539.08,
+      "text": "who may be identified in these various documents"
+    },
+    {
+      "start": 539.08,
+      "end": 542.0,
+      "text": "that we are already starting to unpack."
+    },
+    {
+      "start": 543.76,
+      "end": 548.76,
+      "text": "Our subcommittee also has subpoena power and legal authority."
+    },
+    {
+      "start": 549.16,
+      "end": 554.16,
+      "text": "So as we continue to formally commence this subcommittee,"
+    },
+    {
+      "start": 555.84,
+      "end": 559.48,
+      "text": "subpoenas will very likely be issued for those"
+    },
+    {
+      "start": 559.48,
+      "end": 561.68,
+      "text": "that do not want to voluntarily come forward"
+    },
+    {
+      "start": 561.68,
+      "end": 563.72,
+      "text": "and speak to us as a subcommittee."
+    },
+    {
+      "start": 564.56,
+      "end": 568.12,
+      "text": "We will not only be scrutinizing"
+    },
+    {
+      "start": 568.12,
+      "end": 572.52,
+      "text": "and reviewing all available documentation"
+    },
+    {
+      "start": 572.52,
+      "end": 577.36,
+      "text": "for subpoenas to be promulgated to different folks,"
+    },
+    {
+      "start": 577.36,
+      "end": 580.32,
+      "text": "but there are already folks of interest pertaining"
+    },
+    {
+      "start": 580.32,
+      "end": 583.28,
+      "text": "to Epstein's activities and criminal conduct"
+    },
+    {
+      "start": 583.28,
+      "end": 584.76,
+      "text": "that we will be looking into."
+    },
+    {
+      "start": 585.72,
+      "end": 590.0,
+      "text": "So again, the committee will begin issuing subpoenas"
+    },
+    {
+      "start": 590.0,
+      "end": 592.56,
+      "text": "to these persons of interest without delay."
+    },
+    {
+      "start": 593.48,
+      "end": 596.48,
+      "text": "And although the investigation is fluid,"
+    },
+    {
+      "start": 596.48,
+      "end": 598.88,
+      "text": "as leads and persons of interest and areas"
+    },
+    {
+      "start": 598.88,
+      "end": 601.92,
+      "text": "of inquiry emerge, the committee will act on them"
+    },
+    {
+      "start": 601.92,
+      "end": 605.8,
+      "text": "as a body and will follow evidence wherever it leads."
+    },
+    {
+      "start": 607.4,
+      "end": 610.8,
+      "text": "I again want to thank our subcommittee members"
+    },
+    {
+      "start": 610.8,
+      "end": 612.72,
+      "text": "for taking this time"
+    },
+    {
+      "start": 612.72,
+      "end": 616.68,
+      "text": "and I know this will take a lot of personal attention"
+    },
+    {
+      "start": 616.68,
+      "end": 621.16,
+      "text": "and time, but your commitment to transparency,"
+    },
+    {
+      "start": 621.16,
+      "end": 624.68,
+      "text": "survivor-centered inquiry and accountability"
+    },
+    {
+      "start": 624.68,
+      "end": 628.8,
+      "text": "is duly noted and I think has all the respect"
+    },
+    {
+      "start": 628.8,
+      "end": 632.08,
+      "text": "from myself and certainly have been getting the respect"
+    },
+    {
+      "start": 632.08,
+      "end": 634.28,
+      "text": "of many people in our community"
+    },
+    {
+      "start": 634.28,
+      "end": 638.56,
+      "text": "and within an unanimous vote of approval"
+    },
+    {
+      "start": 638.56,
+      "end": 641.6,
+      "text": "for the subcommittee, certainly the approval"
+    },
+    {
+      "start": 641.6,
+      "end": 642.96,
+      "text": "of the New Mexico house."
+    },
+    {
+      "start": 644.12,
+      "end": 649.0,
+      "text": "So we will continue to provide more detailed public updates"
+    },
+    {
+      "start": 649.0,
+      "end": 654.0,
+      "text": "as this committee advances and would love for the public"
+    },
+    {
+      "start": 654.0,
+      "end": 656.72,
+      "text": "to join us on this forthcoming website."
+    },
+    {
+      "start": 656.72,
+      "end": 660.72,
+      "text": "We're happy to provide alerts to anyone on any updates"
+    },
+    {
+      "start": 660.72,
+      "end": 664.72,
+      "text": "that the subcommittee has for you as well"
+    },
+    {
+      "start": 664.72,
+      "end": 667.8,
+      "text": "and we can do that following the meeting."
+    },
+    {
+      "start": 667.8,
+      "end": 669.92,
+      "text": "We also have public comment"
+    },
+    {
+      "start": 669.92,
+      "end": 672.8,
+      "text": "following the formal portion of our meeting"
+    },
+    {
+      "start": 672.8,
+      "end": 675.88,
+      "text": "and for now, I'd be happy to take any comments"
+    },
+    {
+      "start": 675.88,
+      "end": 678.68,
+      "text": "or questions from the committee should you have any."
+    },
+    {
+      "start": 682.92,
+      "end": 684.8,
+      "text": "I just wanted to thank the chair"
+    },
+    {
+      "start": 684.8,
+      "end": 687.96,
+      "text": "for getting us to this organizational meeting right away"
+    },
+    {
+      "start": 687.96,
+      "end": 691.16,
+      "text": "and also just let members of the audience"
+    },
+    {
+      "start": 691.16,
+      "end": 693.2,
+      "text": "in the public know that this commission"
+    },
+    {
+      "start": 693.2,
+      "end": 696.28,
+      "text": "is also really dedicated to being trauma informed"
+    },
+    {
+      "start": 696.28,
+      "end": 697.8,
+      "text": "in the way that we go about things"
+    },
+    {
+      "start": 698.12,
+      "end": 703.0,
+      "text": "to be victim centered, which I know victims survivors"
+    },
+    {
+      "start": 703.0,
+      "end": 705.24,
+      "text": "haven't necessarily been afforded"
+    },
+    {
+      "start": 705.24,
+      "end": 708.04,
+      "text": "in the other investigations that have happened."
+    },
+    {
+      "start": 708.04,
+      "end": 710.68,
+      "text": "And also those folks who need help right now,"
+    },
+    {
+      "start": 710.68,
+      "end": 713.84,
+      "text": "the New Mexico Coalition of Sexual Assault Programs"
+    },
+    {
+      "start": 713.84,
+      "end": 715.52,
+      "text": "is incredible here in our state"
+    },
+    {
+      "start": 715.52,
+      "end": 719.08,
+      "text": "and you can visit nmsahelp.org"
+    },
+    {
+      "start": 719.08,
+      "end": 721.28,
+      "text": "if you need to reach out to somebody right now."
+    },
+    {
+      "start": 723.08,
+      "end": 725.6,
+      "text": "Thank you, Representative Anaya."
+    },
+    {
+      "start": 725.6,
+      "end": 727.88,
+      "text": "Any other questions, comments from the committee?"
+    },
+    {
+      "start": 729.4,
+      "end": 732.6,
+      "text": "Okay, we can go ahead and go to public comments."
+    },
+    {
+      "start": 733.6,
+      "end": 736.32,
+      "text": "This has been a quick turnaround for this committee."
+    },
+    {
+      "start": 736.32,
+      "end": 739.28,
+      "text": "We have a minute opportunity for folks to,"
+    },
+    {
+      "start": 740.36,
+      "end": 744.56,
+      "text": "if you have an inquiry, that's one thing we can essentially"
+    },
+    {
+      "start": 744.56,
+      "end": 747.6,
+      "text": "compile those, we'd be happy to get back to you"
+    },
+    {
+      "start": 747.6,
+      "end": 751.12,
+      "text": "with those so that we can keep a record of any inquiries"
+    },
+    {
+      "start": 751.12,
+      "end": 753.8,
+      "text": "that we have, if you have information,"
+    },
+    {
+      "start": 753.8,
+      "end": 756.36,
+      "text": "this is a forum to be able to provide that."
+    },
+    {
+      "start": 756.36,
+      "end": 757.84,
+      "text": "You know, there's a number of people online,"
+    },
+    {
+      "start": 757.84,
+      "end": 761.88,
+      "text": "but we can give them 10 minutes of public comments"
+    },
+    {
+      "start": 761.88,
+      "end": 764.08,
+      "text": "with a minute per person if there's anyone"
+    },
+    {
+      "start": 764.08,
+      "end": 766.12,
+      "text": "that wants to say speak."
+    },
+    {
+      "start": 769.84,
+      "end": 772.32,
+      "text": "And for folks online, feel free to raise your hand."
+    },
+    {
+      "start": 779.8,
+      "end": 783.16,
+      "text": "All right, seeing no hands in our gallery here,"
+    },
+    {
+      "start": 783.16,
+      "end": 786.76,
+      "text": "nor online, I think that concludes our meeting."
+    },
+    {
+      "start": 786.76,
+      "end": 788.72,
+      "text": "We'd be happy to take any questions"
+    },
+    {
+      "start": 788.72,
+      "end": 790.6,
+      "text": "following the committee hearing."
+    },
+    {
+      "start": 790.6,
+      "end": 791.6,
+      "text": "Thank you."
+    },
+    {
+      "start": 791.6,
+      "end": 792.92,
+      "text": "With that, we've adjourned."
+    }
+  ]
+}
