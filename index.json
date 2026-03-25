@@ -1,0 +1,195 @@
+{
+  "last_updated": "2026-03-25 14:15",
+  "entries": [
+    {
+      "file": "2026-02-18_House_-_Government__Elections_And_Indian_Affairs__.json",
+      "meeting_id": "79735",
+      "session": "2026-regular",
+      "date": "2026-02-18",
+      "committee": "House Government, Elections and Indian Affairs",
+      "day_of_week": "Wednesday",
+      "start_time": "9:34 AM",
+      "end_time": "10:13 AM",
+      "location": "Room 305",
+      "duration_seconds": 2364.7,
+      "bills_discussed": [
+        {
+          "bill": "HM 64",
+          "title": "Capital Outlay Technical Assistance for Tribes",
+          "sponsor": "Representative Harry Garcia"
+        },
+        {
+          "bill": "HM 65",
+          "title": "Firearm Violence Public Health Task Force",
+          "sponsor": "Representative Janelle Torres Velasquez"
+        }
+      ],
+      "votes": [
+        {
+          "bill": "HM 64",
+          "result": "do pass",
+          "vote": "unanimous"
+        },
+        {
+          "bill": "HM 65",
+          "result": "do pass",
+          "vote": "4-3"
+        }
+      ],
+      "speaker_map": [
+        {
+          "name": "D. Wonda Johnson",
+          "role": "Committee Chair",
+          "party": "D",
+          "confidence": "high"
+        },
+        {
+          "name": "Charlotte Little",
+          "role": "Vice Chair",
+          "party": "D",
+          "confidence": "high"
+        },
+        {
+          "name": "John Block",
+          "role": "Ranking Member",
+          "party": "R",
+          "confidence": "high"
+        },
+        {
+          "name": "Harry Garcia",
+          "role": "Representative",
+          "party": "D",
+          "confidence": "high"
+        },
+        {
+          "name": "Janelle Torres Velasquez",
+          "role": "Representative",
+          "party": "D",
+          "confidence": "high"
+        }
+      ],
+      "summary": "The committee heard two memorials. HM 64, which requests technical assistance for tribal capital outlay projects, passed unanimously. HM 65, which seeks to establish a public health task force to study firearm violence and safety, passed on a 4-3 party-line vote following debate over the inclusion of gun safety instructors on the task force and data linking climate change to suicide rates.",
+      "num_turns": 37,
+      "num_speakers": 11,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79735"
+    },
+    {
+      "file": "2026-02-18_House_-_Taxation_and_Revenue__Room_317__Adjourned_.json",
+      "meeting_id": "79744",
+      "session": "2026-regular",
+      "date": "2026-02-18",
+      "committee": "House Taxation and Revenue",
+      "day_of_week": "Wednesday",
+      "start_time": "2:07 PM",
+      "end_time": "2:26 PM",
+      "location": "Room 317",
+      "duration_seconds": 1091.2,
+      "bills_discussed": [
+        {
+          "bill": "SB 240",
+          "title": "Capital Outlay Projects",
+          "sponsor": "Senate Finance Committee"
+        }
+      ],
+      "votes": [
+        {
+          "bill": "SB 240",
+          "result": "do pass",
+          "vote": "9-3"
+        }
+      ],
+      "speaker_map": [
+        {
+          "name": "Representative Christine Chandler",
+          "role": "Committee Chair",
+          "party": "D",
+          "confidence": "high"
+        },
+        {
+          "name": "Representative Harry Lente",
+          "role": "Bill Presenter / Chair of Appropriations",
+          "party": "D",
+          "confidence": "high"
+        },
+        {
+          "name": "Kelly O'Donnell",
+          "role": "Staff Analyst",
+          "party": "N/A",
+          "confidence": "high"
+        },
+        {
+          "name": "Wesley Billingsley",
+          "role": "Director of Capital Outlay, DFA",
+          "party": "N/A",
+          "confidence": "high"
+        },
+        {
+          "name": "Representative Rod Montoya",
+          "role": "Committee Member",
+          "party": "R",
+          "confidence": "high"
+        }
+      ],
+      "summary": "The committee reviewed and passed the $1.3 billion Capital Outlay bill (SB 240). Debate centered on a $15 million appropriation for a hospital purchase in San Miguel County, which some Republican members suspected was intended for reproductive health services. There was also a technical discussion regarding a location error for the Navajo Code Talker Museum in the bill's supplemental charts.",
+      "num_turns": 33,
+      "num_speakers": 12,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79744"
+    },
+    {
+      "file": "2026-02-17_House_-_Investigatory_Subcommittee__Room_315__Adjo.json",
+      "meeting_id": "79719",
+      "session": "2026-regular",
+      "date": "2026-02-17",
+      "committee": "House Investigatory Subcommittee",
+      "day_of_week": "Tuesday",
+      "start_time": "10:33 AM",
+      "end_time": "10:47 AM",
+      "location": "Room 315",
+      "duration_seconds": 826.9,
+      "bills_discussed": [],
+      "votes": [
+        {
+          "bill": "Authorization of Subcommittee",
+          "result": "Passed",
+          "vote": "Unanimous (House)"
+        }
+      ],
+      "speaker_map": [
+        {
+          "name": "Andrea Romero",
+          "role": "Committee Chair",
+          "party": "D",
+          "confidence": "high"
+        },
+        {
+          "name": "Mariana Anaya",
+          "role": "Representative",
+          "party": "D",
+          "confidence": "high"
+        },
+        {
+          "name": "William Hall",
+          "role": "Representative",
+          "party": "R",
+          "confidence": "high"
+        },
+        {
+          "name": "Andrea Reeb",
+          "role": "Representative",
+          "party": "R",
+          "confidence": "high"
+        },
+        {
+          "name": "Jayden",
+          "role": "Committee Clerk",
+          "party": "N/A",
+          "confidence": "high"
+        }
+      ],
+      "summary": "This was the initial organizational meeting of the House Investigatory Subcommittee, informally known as the Truth Commission, tasked with investigating Jeffrey Epstein's criminal activities at Zoro Ranch in New Mexico. Chair Andrea Romero outlined the subcommittee's mission, its $2 million budget, and its intent to use subpoena power and a public tip line to conduct a bipartisan, survivor-centered investigation.",
+      "num_turns": 17,
+      "num_speakers": 5,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260217/-1/79719"
+    }
+  ]
+}

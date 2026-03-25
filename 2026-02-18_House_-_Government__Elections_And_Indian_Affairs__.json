@@ -7,7 +7,7 @@
   "stream_url": "https://sg002-live.sliq.net/00293-vod-2/_definst_/2026/02/18/House%20-%20Government%2C%20Elections%20And%20Indian%20Affairs_2026-02-18-09.34.14_79735_22.mp4/playlist.m3u8",
   "duration_seconds": 2364.7,
   "whisper_model": "base",
-  "transcribed_at": "2026-03-25T12:40:30.418550",
+  "transcribed_at": "2026-03-25T13:37:28.206705",
   "committee": "House Government, Elections and Indian Affairs",
   "day_of_week": "Wednesday",
   "start_time": "9:34 AM",
@@ -16,13 +16,13 @@
   "bills_discussed": [
     {
       "bill": "HM 64",
-      "title": "Technical Assistance for Tribal Capital Outlay Projects",
+      "title": "Capital Outlay Technical Assistance for Tribes",
       "sponsor": "Representative Harry Garcia"
     },
     {
       "bill": "HM 65",
-      "title": "Health and Firearm Safety Research Task Force",
-      "sponsor": "Representative Torres Velasquez"
+      "title": "Firearm Violence Public Health Task Force",
+      "sponsor": "Representative Janelle Torres Velasquez"
     }
   ],
   "votes": [
@@ -39,108 +39,98 @@
   ],
   "speaker_map": [
     {
-      "name": "Representative D. Wonda Johnson",
+      "name": "D. Wonda Johnson",
       "role": "Committee Chair",
       "party": "D",
       "confidence": "high"
     },
     {
-      "name": "Representative Janelle Tejada",
+      "name": "Charlotte Little",
       "role": "Vice Chair",
       "party": "D",
       "confidence": "high"
     },
     {
-      "name": "Representative John Block",
+      "name": "John Block",
       "role": "Ranking Member",
       "party": "R",
       "confidence": "high"
     },
     {
-      "name": "Representative Harry Garcia",
-      "role": "Sponsor",
+      "name": "Harry Garcia",
+      "role": "Representative",
       "party": "D",
       "confidence": "high"
     },
     {
-      "name": "Representative Torres Velasquez",
-      "role": "Sponsor",
+      "name": "Janelle Torres Velasquez",
+      "role": "Representative",
       "party": "D",
       "confidence": "high"
     }
   ],
-  "summary": "The committee heard two memorials. HM 64, which requests technical assistance for tribal entities regarding capital outlay projects, passed unanimously. HM 65, which seeks to establish a task force to study firearm violence as a public health issue, passed on a 4-3 party-line vote following debate over the inclusion of firearm safety instructors and certain data points in the memorial's preamble.",
-  "num_turns": 39,
+  "summary": "The committee heard two memorials. HM 64, which requests technical assistance for tribal capital outlay projects, passed unanimously. HM 65, which seeks to establish a public health task force to study firearm violence and safety, passed on a 4-3 party-line vote following debate over the inclusion of gun safety instructors on the task force and data linking climate change to suicide rates.",
+  "num_turns": 37,
   "num_speakers": 11,
   "turns": [
     {
       "speaker": "Chair Rep. D. Wonda Johnson",
       "timestamp": "00:00",
-      "text": "Good morning. Let's go ahead and allow our attendees to come in. The meeting is called to order. Clerk, please follow with the roll call."
+      "text": "Good morning, everyone. Let's go ahead and call the House Government, Elections and Indian Affairs Committee to order. Clerk, please call the roll."
     },
     {
       "speaker": "Committee Clerk",
-      "timestamp": "00:43",
-      "text": "Representative Anyanonu? Present. Representative Borrego? Present. Representative Block? Present. Representative Madalena? Present. Representative Martinez? Present. Representative Reeb? Present. Representative Szczepanski? Present. Representative Tejada? Present. Representative Zamora? Present. Madam Chair, we have a quorum."
+      "timestamp": "00:38",
+      "text": "Representative Garcia? Representative Block? Representative Lujan? Representative Rubio? Representative Szczepanski? Representative Little? Madam Chair?"
     },
     {
       "speaker": "Chair Rep. D. Wonda Johnson",
-      "timestamp": "01:13",
+      "timestamp": "01:06",
       "text": "We have a quorum. You may begin, Representative."
     },
     {
       "speaker": "Rep. Harry Garcia",
-      "timestamp": "01:16",
-      "text": "Thank you, Madam Chair and committee members. My name is Harry Garcia from District 69. Today I am here to ask you to take a look at House Memorial 64, sponsored by myself and Chair Lente. This memorial requests the Indian Affairs Department to provide technical assistance capacity to the state's Indian nations, tribes, and pueblos to promote effective and timely use of capital outlay project funds. As the legislature considers changes to capital outlay rules, this will help our communities. \n\nMadam Chair and members, as you recall, Chair Lente proposed House Bill 247 which changed some of the capital outlay rules. In the interim, we heard from many tribal communities about the significant challenges they face with different capital outlay systems. This memorial encourages the Indian Affairs Department to fill three positions that are currently open to assist our tribal communities with capital outlay projects. We are hopeful this will be a solution. If HB 247 is implemented, tribal nations and pueblos will have about 10 months to start spending down based on the criteria listed to maintain their appropriations. If they aren't able to meet that criteria, the funds go to a tribal infrastructure fund where they have to apply all over again in a very competitive process. So again, this is a memorial to request assistance and support services from the Indian Affairs Department. Thank you."
+      "timestamp": "01:14",
+      "text": "Thank you, Madam Chair and members. My name is Representative Harry Garcia from House District 69. I am accompanied by our fiscal analyst. House Memorial 64 is sponsored by myself and Chair Lente. This memorial requests that the Indian Affairs Department build capacity to provide technical assistance to the state's Indian nations, tribes, and pueblos to promote the effective and timely use of capital project funds. Madam Chair and members, as you recall, there was legislation that Chair Lente proposed, House Bill 247, that changed some of the capital outlay rules. In the interim, we heard from many tribal communities about the significant challenges within the different systems. This memorial encourages the Indian Affairs Department to fill the three positions that are currently open to assist our tribal communities with capital outlay. We are hopeful that this will be a potential solution. If implemented, it will give tribal nations and pueblos about 10 months to start spending down based on the criteria listed in House Bill 247 to maintain their capital outlay appropriations. If they are not able to meet those criteria, the funds go to a tribal infrastructure fund where they have to apply all over again in a very competitive process. So again, this memorial requests assistance from the Indian Affairs Department to continue support services. I am committed to making sure we get this back on track. Thank you."
     },
     {
       "speaker": "Chair Rep. D. Wonda Johnson",
-      "timestamp": "03:25",
-      "text": "Thank you. Let's go to the audience. Do we have anyone who wishes to speak in support or opposition? Not seeing any, let's go to the webcast. No one on the webcast? I will go to the committee. Vice Chair Tejada."
+      "timestamp": "03:22",
+      "text": "Thank you. Let's go to the audience. Do we have anyone who wishes to speak in support or opposition? Seeing none in the room, let's go to the webcast. If not, I will go to the Vice Chair for questions."
     },
     {
-      "speaker": "Vice Chair Rep. Janelle Tejada",
-      "timestamp": "03:42",
-      "text": "Thank you, Madam Chair, and thank you, Representative, for bringing this forward. We have problems throughout the state everywhere we look with how capital outlay money is being handled. When you were doing your investigation and studying how you were going to approach this, did you come across anything that you thought might be a bill you could put together for the whole state instead? Or are your issues within Indian Affairs uniquely different than the rest of the state?"
+      "speaker": "Vice Chair Rep. Charlotte Little",
+      "timestamp": "03:41",
+      "text": "Thank you, Madam Chair, and thank you, Representative, for bringing this forward. We have problems throughout the state everywhere we look with capital outlay money and how it is being handled. When you were doing your investigation and studying how to approach this, did you come across anything that you thought might be a bill you could put together for the whole state instead? Or are your issues within Indian Affairs fully different than the rest of the state?"
     },
     {
       "speaker": "Rep. Harry Garcia",
       "timestamp": "04:43",
-      "text": "Thank you, Madam Chair and Representative. I was solely focused on the way that our capital outlay allocations from this body flow to the Indian Affairs Department and then down to our communities. I do understand that there are issues elsewhere. I spoke with a representative yesterday about this regarding our smaller acequia groups and land grant groups. However, at the moment, I do not have them included in this memorial because I believe they go through DFA directly and they have other sources of support. This here is specific to the tribal entities—pueblos and nations—that have to go through the Indian Affairs Department."
+      "text": "Thank you, Madam Chair and Representative. I was solely focused on the way that our capital outlay allocations from this body flow to the Indian Affairs Department and then down to our communities. I do understand that there are issues elsewhere. I spoke with a Representative yesterday about this regarding our smaller acequia groups and land grant groups. However, at the moment, I do not have them included in this memorial because I believe they go through the Department of Finance and Administration (DFA) directly and they have other sources of support. This here is specific to the tribal entities, pueblos, and nations that have to go through the Indian Affairs Department."
     },
     {
-      "speaker": "Vice Chair Rep. Janelle Tejada",
-      "timestamp": "05:29",
-      "text": "Okay. I just think sometimes when we concentrate on one area, we should be concentrating on the whole state and how we fix our issues, but I look forward to the rest of the debate. Thank you, Madam Chair."
+      "speaker": "Vice Chair Rep. Charlotte Little",
+      "timestamp": "05:27",
+      "text": "Okay. I just think sometimes when we concentrate on one area, we should be looking at the whole state and how we fix our issues, but I look forward to the rest of the debate. Thank you, Madam Chair."
     },
     {
-      "speaker": "Chair Rep. D. Wonda Johnson",
-      "timestamp": "05:42",
-      "text": "Thank you. Representative Borrego."
-    },
-    {
-      "speaker": "Rep. Cynthia Borrego",
-      "timestamp": "05:47",
-      "text": "Thank you, Madam Chair. Yeah, I had similar questions. During the debate on Chairman Lente's bill, I actually voted against it because I had many of these questions. I didn't know about this memorial then. I support this memorial due to the issues I have with how quickly those changes take effect. Can you go over those changes a little bit more specifically as they relate to your memorial?"
+      "speaker": "Rep. Tara Lujan",
+      "timestamp": "05:46",
+      "text": "Thank you, Madam Chair. I had similar questions. During the debate on Chairman Lente's bill, I actually voted against it because I had many of these concerns. I support this memorial because of the issues regarding how quickly those changes take effect. Can you go over those changes a little bit more, specifically regarding how they relate to your memorial?"
     },
     {
       "speaker": "Rep. Harry Garcia",
-      "timestamp": "06:34",
-      "text": "Thank you, Madam Chair and Representative. If you look at House Bill 247, page seven, there are requirements set forth regarding unexpended money and how it will be reverted. Some of the rules are that projects may only be authorized once for a period of two years, or three years if at least 10% of the initial appropriation has been encumbered by the first day of January in which the request for reauthorization is made. Reauthorization may not alter the original purpose, although technical changes are permitted. Capital outlay authorizations for projects in excess of $100,000 must appear on a capital improvement plan. Those are the challenges. That is why I described the 10-month window as a challenge that most tribes will face when this is signed into law."
+      "timestamp": "06:33",
+      "text": "Thank you, Madam Chair and Representative. If you look at House Bill 247, there are requirements set forth regarding unexpended money and how it will be reverted. Some of the rules are that projects may only be reauthorized once. There is a period of two years, or three if at least 10% of the initial appropriation has been encumbered by the first day of January in which the request for reauthorization is made. Reauthorization may not alter the original purpose, although technical changes are permitted. Capital outlay appropriations for projects in excess of $100,000 must appear on a capital improvement plan. Those are the challenges, and that is why I described the 10-month window as a challenge most tribes will face when this is signed."
     },
     {
-      "speaker": "Rep. Cynthia Borrego",
-      "timestamp": "08:26",
-      "text": "I agree with you. I debated this bill on the floor and I understand we might work on something to address the entire state, but you're focused on this because of how the capital amount goes into a different plan, and then that plan becomes competitive again with no assurance of reallocation. There's an extra step. I stand behind you on this; it supports the arguments I had on the floor. We need to come back next year and work on a broader scope of that along with the chairman. We are moving in the right direction as far as reorganizing how we get to a final place for capital outlay so that we are more fiscally responsible, but I don't want those communities that are in most need to be harmed. Thank you."
+      "speaker": "Rep. Tara Lujan",
+      "timestamp": "08:18",
+      "text": "I agree with you. I debated this bill on the floor and I understand we might work on something to address the entire state, but you are focused on this because the capital goes into a different plan that becomes competitive again. There are no assurances that you will be reallocated those funds. I stand behind you on this; it supports the arguments I had on the original bill. We need to come back next year and work on a broader scope of this along with the chairman. I think we are moving in the right direction in terms of fiscal responsibility, but we need to be careful not to hurt the communities in most need. Thank you."
     },
     {
-      "speaker": "Chair Rep. D. Wonda Johnson",
-      "timestamp": "09:56",
-      "text": "Thank you. Representative Tejada."
-    },
-    {
-      "speaker": "Vice Chair Rep. Janelle Tejada",
-      "timestamp": "10:00",
+      "speaker": "Vice Chair Rep. Charlotte Little",
+      "timestamp": "09:58",
       "text": "Thank you, Madam Chair. I'd like to move a do-pass."
     },
     {
@@ -150,126 +140,126 @@
     },
     {
       "speaker": "Chair Rep. D. Wonda Johnson",
-      "timestamp": "10:06",
-      "text": "We have a motion for a do-pass by Vice Chair Tejada, and a second by Ranking Member Block. Do we have any opposition? Seeing none, please show all present voting in the affirmative. You have a do-pass. All righty, I see Representative Torres Velasquez is here for House Memorial 65. Good morning, Representative. Welcome to our committee. Anytime you're ready."
+      "timestamp": "10:05",
+      "text": "We have a motion for a do-pass by Vice Chair Little and a second by Ranking Member Block. Do we have any opposition? Seeing none, please show all present voting in the affirmative. You have a do-pass. All right, I see Representative Torres Velasquez here for House Memorial 65."
     },
     {
-      "speaker": "Rep. Torres Velasquez",
+      "speaker": "Rep. Janelle Torres Velasquez",
       "timestamp": "10:59",
-      "text": "Thank you, Madam Chair and members of the committee. This is House Memorial 65. It requests that the Department of Health work together with the Department of Public Safety to convene a task force and conduct research on health and firearm safety policies. The goal is to make recommendations on how to reduce firearm violence in New Mexico. This memorial came about after many meetings with the community and concerns raised by my constituents during my campaign. There are families affected by gun violence and families afraid to send their children to school because of mass shootings. Rather than looking at this as gun control versus gun rights, the group suggested looking at it as a health issue and a safety issue. \n\nOne of the leaders in our group is a doctor and a geriatric specialist. He noted that at medical association conferences, gun violence and gun deaths are consistently identified as top health issues. We can look at this as a public health issue: studying patterns and causes of death. In our research, we found there are approximately 330 million guns in our country and 40,000 deaths. How is it that hundreds of millions of guns are kept safely, but some are used in ways that cause harm? We believe the Department of Health and Public Safety can look for patterns and creative solutions. It's similar to how we looked at car safety in the 60s and 70s. We didn't stop production of cars, but we introduced seatbelts, air cushions, and car seats that saved thousands of lives. We can do the same with firearm safety. This comes from people in House District 30 and neighboring communities. There is strong interest in collecting data and doing research."
+      "text": "Thank you, Madam Chair and members of the committee. House Memorial 65 requests that the Department of Health work together with the Department of Public Safety to convene a task force and conduct research on health and firearm safety policies. This group would make recommendations on how to reduce firearm violence in New Mexico. This memorial came about after many meetings with the community and concerns raised by my constituents. There were families affected by gun violence, families afraid to send their children to school due to mass shootings, and families who own guns and want to protect their rights. Rather than looking at this as gun control versus gun rights, we are suggesting looking at it as a public health and safety issue. One of the leaders in our group is a doctor who noted that gun violence is a top health issue at medical conferences. We can look at this as a medical issue—treatment in the ER—or a public health issue where we study patterns and causes. In our research, we found there are approximately 330 million guns in our country and about 40,000 deaths. We want to look at why many guns are kept safely while others cause harm. We can look for patterns and creative solutions, similar to how we approached car safety in the 1960s. We didn't stop car production, but we introduced seatbelts, airbags, and car seats which saved thousands of lives. We want to do the same for firearm safety. This comes from people in House District 30 and neighboring communities. There is a strong interest in collecting data and doing research."
     },
     {
       "speaker": "Chair Rep. D. Wonda Johnson",
       "timestamp": "16:42",
-      "text": "Let's go to the audience. Do we have any supporting comments or opposition? We'll start with the webcast. Kathleen Mosley."
+      "text": "Thank you. Let's go to the audience for support. We will start with the webcast."
     },
     {
       "speaker": "Kathleen Mosley",
-      "timestamp": "17:10",
-      "text": "Madam Chair and members of the committee, thank you for hearing this, and thank you, Representative Torres Velasquez, for bringing House Memorial 65 forward. I'm a retired community health and public health nurse and a gun violence survivor. My professor in my public health program was murdered in one of our country's earliest mass school shooting incidents, which left six dead. According to the K-12 school shooting database, there have been almost 3,000 school shooting incidents in the US. In New Mexico, we are not immune, experiencing over two dozen incidents in that same timeframe. 4% of New Mexico high school children interviewed through the Youth Risk Behavior Survey said they brought a weapon to school in the last 30 days. House Memorial 65 places firearm safety in the purview of the health department and public safety department to make plans with a public health approach using data, policy, and community-based programs. It takes courage to initiate action that keeps people safe given that there are guns in the environment. This gives the departments space to work together on a long-term plan. Thank you."
+      "timestamp": "17:08",
+      "text": "Madam Chair and members of the committee, thank you to the sponsor. I am a retired public health nurse and a gun violence survivor. My professor was murdered in one of our country's earliest mass school shootings. According to the K-12 school shooting database, there have been almost 3,000 school shooting incidents in the US. In New Mexico, we have experienced over two dozen incidents in that same timeframe. Four percent of New Mexico high school children interviewed in a risk behavior survey said they brought a weapon to school in the last 30 days. House Memorial 65 places firearm safety in the purview of the Health Department and Public Safety Department to use a data-driven approach regarding policy, community programs, and storage practices. It takes courage to initiate action that keeps people safe, and this gives the departments the space to work together on a long-term plan. Thank you."
     },
     {
-      "speaker": "Chair Rep. D. Wonda Johnson",
-      "timestamp": "19:29",
-      "text": "Thank you. Dr. Heather Wood? You have one minute for public comment."
-    },
-    {
-      "speaker": "Dr. Heather Wood",
-      "timestamp": "20:02",
-      "text": "Good morning, Madam Chair, committee, and Representative Torres Velasquez. Thank you for bringing this memorial. I am in support of House Memorial 65. I'm a family medicine doctor in Albuquerque and gun violence is absolutely a health safety issue. My husband is an emergency medicine doctor and unfortunately sees way too many gun injuries. Just last year at Rust Medical Center ER, there were shots outside the hospital that went through the walls, injuring patients inside who were seeking care. Just yesterday in Tijeras, there was a domestic shooting that left a four-year-old dead and a one-year-old and a mother in critical condition. It would be such a great step to study this and have a cohesive plan to protect all people. Thank you."
-    },
-    {
-      "speaker": "Chair Rep. D. Wonda Johnson",
-      "timestamp": "21:06",
-      "text": "Thank you. Athena Christodoulou."
+      "speaker": "Dr. Heather Abeyta",
+      "timestamp": "19:35",
+      "text": "Good morning, Madam Chair and committee. I am in support of House Memorial 65. I am a family medicine doctor in Albuquerque. Gun violence is absolutely a health safety issue. My husband is an emergency medicine doctor and unfortunately sees way too many gun injuries. Just last year at Rust Medical Center, shots fired outside the hospital went through the walls and injured patients inside the ER. Just yesterday in Tijeras, a domestic shooting left a four-year-old dead and a mother and one-year-old in critical condition. It would be a great step to study this and have a cohesive plan to protect people. Thank you."
     },
     {
       "speaker": "Athena Christodoulou",
-      "timestamp": "21:17",
-      "text": "I'd like to thank the Chair and the committee for considering this House Memorial and Representative Torres Velasquez. I have seen the effect that a good workgroup can have on future legislation. Because we have a major problem with gun violence, I hope and pray that you would pass this memorial. Thank you."
+      "timestamp": "21:06",
+      "text": "Thank you, Madam Chair and the committee. I have seen the effect that a good workgroup can do on future legislation. We have a major problem with gun violence, and I hope and pray that you would pass this memorial. Thank you."
+    },
+    {
+      "speaker": "Rep. John Block",
+      "timestamp": "21:50",
+      "text": "Thank you, Madam Chair and Representative. I am not adverse to this idea, but I have a few questions. I'm wondering how we selected the individuals for the task force. I'm concerned there isn't someone from a gun safety training perspective, like instructors from a gun range or groups like Project Appleseed or the NRA, who provide safety courses. Were those voices considered?"
+    },
+    {
+      "speaker": "Rep. Janelle Torres Velasquez",
+      "timestamp": "22:48",
+      "text": "Excellent question, Representative Block. These are suggestions for the task force and it's not limited to these ideas. There is certainly room for someone such as you described. My daughter-in-law just graduated from gun safety classes and had wonderful instructors. I recognize these would be important people to have on the task force because they teach safe usage. We should absolutely put someone from that area on the list."
+    },
+    {
+      "speaker": "Rep. John Block",
+      "timestamp": "23:40",
+      "text": "I appreciate that. On page four, we talk about police chiefs from Albuquerque, Las Cruces, or Santa Fe. Have we considered including representatives from rural or tribal areas?"
+    },
+    {
+      "speaker": "Rep. Janelle Torres Velasquez",
+      "timestamp": "24:13",
+      "text": "Yes, absolutely. We should make sure that language is clear in the memorial."
+    },
+    {
+      "speaker": "Rep. John Block",
+      "timestamp": "24:20",
+      "text": "Thank you. Another question on page three: there is a 'whereas' clause stating that as global temperatures rise because of climate change, suicide rates are also likely to rise. How did we get to that correlation? Does rising temperature have to do with firearms?"
+    },
+    {
+      "speaker": "Rep. Janelle Torres Velasquez",
+      "timestamp": "24:48",
+      "text": "I believe about two-thirds of deaths by gun violence are suicides. One correlation that started coming up in data was that when living conditions are hard in terms of temperature, sometimes people resort to taking their own lives. It was intended to capture issues appearing in the data. We also want to support veterans in terms of gun safety, which is another issue we've been working on for some time."
+    },
+    {
+      "speaker": "Rep. John Block",
+      "timestamp": "26:23",
+      "text": "I haven't seen the data on that correlation, so I wouldn't feel comfortable voting on this today without looking at it. I know places with less sunlight have higher suicide rates, but I haven't heard the argument regarding global warming. However, I appreciate you taking this on. I want to end violence in our communities and prevent suicide. I have a lot of veterans in my district and I hate to hear of any suicide. I also love guns—everyone knows that—and I want to ensure people can own them safely and be a good shot to protect their homes. I can't support it right now because of the data I haven't seen and I'd like tighter language on the task force members, but I will continue to listen."
+    },
+    {
+      "speaker": "Rep. Janelle Torres Velasquez",
+      "timestamp": "29:36",
+      "text": "Thank you. One of the assumptions is that gun deaths are correlated with mental health. Looking at the data would help us address not just gun violence but suicides that may or may not be gun-related. I am still learning and I'm happy to provide websites with more data. We aren't collecting or using this specific process yet in the state, and we want to start looking at patterns to identify solutions."
     },
     {
       "speaker": "Chair Rep. D. Wonda Johnson",
-      "timestamp": "21:52",
-      "text": "Thank you. Committee members? Representative Block."
+      "timestamp": "30:49",
+      "text": "Thank you. The purpose of this task force is to work together to get more information specifically for New Mexico, as we are a high-ranking state for suicides. I think you are hitting the point and keeping this in accordance with human services and health. You have listed the composition of the task force, correct?"
     },
     {
-      "speaker": "Rep. John Block",
-      "timestamp": "21:58",
-      "text": "Thank you, Madam Chair, and thank you, Representative. I'm not adverse to this idea. I'm wondering how we selected the individuals for the task force. One concern I have is that there isn't someone from a gun safety training perspective. In my community, we have stakeholders like gun range instructors, folks from Project Appleseed, and the NRA who do courses in gun safety. I would love to have those voices. Were they considered?"
+      "speaker": "Rep. Janelle Torres Velasquez",
+      "timestamp": "32:21",
+      "text": "Yes, Madam Chair. We made suggestions for who should serve, looking first at entities important for both collecting and making sense of the data."
     },
     {
-      "speaker": "Rep. Torres Velasquez",
-      "timestamp": "22:48",
-      "text": "Excellent question, Representative Block. These are suggestions for who would be on the task force and it is not limited to these ideas. There is certainly room for someone such as those you described. My daughter-in-law just finished her gun safety classes and has wonderful instructors. I recognize those would be very important people to include because they teach gun safety and how to use a firearm properly. Absolutely, let's put someone from that area on here as well."
+      "speaker": "Chair Rep. D. Wonda Johnson",
+      "timestamp": "32:48",
+      "text": "I like this. In the Second Judicial District, there is a task force related to this that we just gave funding to through the budget. It is held in the DA's office. I just want to make that recognition that you are on the same track with what is going on. I support you."
     },
     {
-      "speaker": "Rep. John Block",
-      "timestamp": "23:41",
-      "text": "Thank you, Madam Chair and Representative. I appreciate that. I see 'community and prevention stakeholders' which may vaguely cover them, but I'd like to see it explicitly. On page four, we talk about police chiefs of Albuquerque, Las Cruces, or Santa Fe. Have we considered other places in more rural areas or even tribal areas?"
-    },
-    {
-      "speaker": "Rep. Torres Velasquez",
-      "timestamp": "24:13",
-      "text": "Yes, absolutely, Madam Chair and Representative. We want to make sure that's clear and that it actually comes to be. Guns are everywhere, and we want to work with constituents in rural areas as much as the cities."
-    },
-    {
-      "speaker": "Rep. John Block",
-      "timestamp": "24:52",
-      "text": "I appreciate that. One more question on page three. There is a 'whereas' that says 'as global temperatures rise because of climate change, suicide rates are also likely to rise.' How did we get to that? If we are targeting firearm safety, does rising temperature have to do with firearms? I'm not sure I see the correlation."
-    },
-    {
-      "speaker": "Rep. Torres Velasquez",
-      "timestamp": "25:19",
-      "text": "I believe two-thirds of deaths by gun violence are suicides. One correlation appearing in the data is that when living conditions are hard in terms of extreme temperature, sometimes people resort to taking their own lives. It was intended to capture issues starting to come up in the data. We've been working on this for some time, and we also want to look at supporting veterans in terms of gun safety as well."
-    },
-    {
-      "speaker": "Rep. John Block",
-      "timestamp": "26:27",
-      "text": "I haven't seen the data on that, so I wouldn't feel comfortable voting on this right now. I know in places like Washington State or England where there is a lack of sunlight, there are high suicide rates. But in New Mexico, we have so much sunlight. I'm not sure about the temperature argument. I appreciate you taking this on because I want to end violence in our communities and prevent suicide. I have many veterans in my district. I also love guns—I want to make sure people are owning them safely and doing courses so they have the skills ready. Because of the data I haven't seen regarding climate and the need for tighter language on rural and safety stakeholders, I can't support it at this time, but I thank you for the conversation."
-    },
-    {
-      "speaker": "Rep. Torres Velasquez",
-      "timestamp": "29:36",
-      "text": "Yes, Madam Chair. One of the assumptions is that gun deaths are correlated with mental health, and that relates to the question on suicide. Looking at the data would be very helpful in identifying patterns and solutions. Being in my first term, I am still learning, but I'm happy to provide websites with more data. We aren't really collecting or using this process yet in the state, and that is what we want to start doing."
-    },
-    {
-      "speaker": "Rep. Cynthia Borrego",
-      "timestamp": "31:33",
-      "text": "The purpose of the task force would be to get more information and data specifically for New Mexico. We know we are among the highest states for gun-related suicides. I think you are hitting on an important point. In the second judicial district, there is a task force related to this that we just gave funding to through the budget. It's held in the DA's office. You are on the same track as what is already going on. I support you."
-    },
-    {
-      "speaker": "Vice Chair Rep. Janelle Tejada",
+      "speaker": "Vice Chair Rep. Charlotte Little",
       "timestamp": "33:36",
-      "text": "Thank you, Madam Chair and Representative, for bringing this forward. I think this will open opportunities for more information. I am pleased to see research to study the connection between alcohol use and gun violence, and the suicide rate which is a huge loss for rural communities. As a member of a family affected by gun violence, this is very important to me. My question is about the timeline. I see the end date for the report is September 15th. What are your expected meeting times and how will the group be assembled?"
+      "text": "Thank you, Madam Chair and Representative. I think this will provide opportunities for more information. I am pleased to see research into the connection with alcohol use in New Mexico. The suicide rate in rural communities is also a huge loss. Being a family affected by gun violence, this is really important to me. I don't want any family to go through what mine did. I see the report deadline is September 15th. What is your expected timeline and meeting schedule for this group?"
     },
     {
-      "speaker": "Rep. Torres Velasquez",
+      "speaker": "Rep. Janelle Torres Velasquez",
       "timestamp": "36:49",
-      "text": "Thank you, Madam Chair and Madam Vice Chair. I am joined by Senator Pinto, who has proposed similar memorials. For the timeline, we thought monthly meetings would be appropriate. The September 15th deadline was set so the report could be given to the interim health committee so they can start making suggestions for the next session."
+      "text": "Thank you, Madam Chair and Vice Chair. I am joined by Senator Pinto, who has proposed similar memorials in the past. We had thought of monthly meetings. The September 15th deadline was set so the report could be given to the interim Health Committee so they can start making suggestions for the next session."
     },
     {
-      "speaker": "Rep. Anyanonu",
+      "speaker": "Chair Rep. D. Wonda Johnson",
+      "timestamp": "38:03",
+      "text": "Thank you. Any further questions?"
+    },
+    {
+      "speaker": "Rep. Angelica Rubio",
       "timestamp": "38:10",
-      "text": "Madam Chair, I move a do-pass."
+      "text": "I move a do-pass."
     },
     {
       "speaker": "Chair Rep. D. Wonda Johnson",
       "timestamp": "38:14",
-      "text": "We have a motion for a do-pass and a second. Clerk, please call the roll."
+      "text": "We have a motion for a do-pass. Clerk, please call the roll."
     },
     {
       "speaker": "Committee Clerk",
       "timestamp": "38:21",
-      "text": "Representative Anyanonu? Yes. Representative Block? No. Representative Borrego? Yes. Representative Madalena? Yes. Representative Martinez? No. Representative Szczepanski? Yes. Representative Zamora? No."
+      "text": "Representative Rubio? Yes. Representative Block? No. Representative Borrego? [No response]. Representative Long? [No response]. Representative Maestas? No. Representative Szczepanski? [No response]. Representative Zamora? [No response]. Vice Chair Little? Madam Chair?"
     },
     {
       "speaker": "Chair Rep. D. Wonda Johnson",
-      "timestamp": "38:49",
-      "text": "Madam Chair, you have four in the affirmative and three in the negative. The motion passes. You have a do-pass on your memorial. Good morning, Senator Pinto. Committee members, we are adjourned."
+      "timestamp": "38:52",
+      "text": "Madam Chair, you have four in the affirmative and three in the negative. You have a do-pass on your memorial. Good morning, Senator Pinto. Thank you, committee members."
     }
   ],
-  "full_text": "[Chair Rep. D. Wonda Johnson]: Good morning. Let's go ahead and allow our attendees to come in. The meeting is called to order. Clerk, please follow with the roll call.\n\n[Committee Clerk]: Representative Anyanonu? Present. Representative Borrego? Present. Representative Block? Present. Representative Madalena? Present. Representative Martinez? Present. Representative Reeb? Present. Representative Szczepanski? Present. Representative Tejada? Present. Representative Zamora? Present. Madam Chair, we have a quorum.\n\n[Chair Rep. D. Wonda Johnson]: We have a quorum. You may begin, Representative.\n\n[Rep. Harry Garcia]: Thank you, Madam Chair and committee members. My name is Harry Garcia from District 69. Today I am here to ask you to take a look at House Memorial 64, sponsored by myself and Chair Lente. This memorial requests the Indian Affairs Department to provide technical assistance capacity to the state's Indian nations, tribes, and pueblos to promote effective and timely use of capital outlay project funds. As the legislature considers changes to capital outlay rules, this will help our communities. \n\nMadam Chair and members, as you recall, Chair Lente proposed House Bill 247 which changed some of the capital outlay rules. In the interim, we heard from many tribal communities about the significant challenges they face with different capital outlay systems. This memorial encourages the Indian Affairs Department to fill three positions that are currently open to assist our tribal communities with capital outlay projects. We are hopeful this will be a solution. If HB 247 is implemented, tribal nations and pueblos will have about 10 months to start spending down based on the criteria listed to maintain their appropriations. If they aren't able to meet that criteria, the funds go to a tribal infrastructure fund where they have to apply all over again in a very competitive process. So again, this is a memorial to request assistance and support services from the Indian Affairs Department. Thank you.\n\n[Chair Rep. D. Wonda Johnson]: Thank you. Let's go to the audience. Do we have anyone who wishes to speak in support or opposition? Not seeing any, let's go to the webcast. No one on the webcast? I will go to the committee. Vice Chair Tejada.\n\n[Vice Chair Rep. Janelle Tejada]: Thank you, Madam Chair, and thank you, Representative, for bringing this forward. We have problems throughout the state everywhere we look with how capital outlay money is being handled. When you were doing your investigation and studying how you were going to approach this, did you come across anything that you thought might be a bill you could put together for the whole state instead? Or are your issues within Indian Affairs uniquely different than the rest of the state?\n\n[Rep. Harry Garcia]: Thank you, Madam Chair and Representative. I was solely focused on the way that our capital outlay allocations from this body flow to the Indian Affairs Department and then down to our communities. I do understand that there are issues elsewhere. I spoke with a representative yesterday about this regarding our smaller acequia groups and land grant groups. However, at the moment, I do not have them included in this memorial because I believe they go through DFA directly and they have other sources of support. This here is specific to the tribal entities—pueblos and nations—that have to go through the Indian Affairs Department.\n\n[Vice Chair Rep. Janelle Tejada]: Okay. I just think sometimes when we concentrate on one area, we should be concentrating on the whole state and how we fix our issues, but I look forward to the rest of the debate. Thank you, Madam Chair.\n\n[Chair Rep. D. Wonda Johnson]: Thank you. Representative Borrego.\n\n[Rep. Cynthia Borrego]: Thank you, Madam Chair. Yeah, I had similar questions. During the debate on Chairman Lente's bill, I actually voted against it because I had many of these questions. I didn't know about this memorial then. I support this memorial due to the issues I have with how quickly those changes take effect. Can you go over those changes a little bit more specifically as they relate to your memorial?\n\n[Rep. Harry Garcia]: Thank you, Madam Chair and Representative. If you look at House Bill 247, page seven, there are requirements set forth regarding unexpended money and how it will be reverted. Some of the rules are that projects may only be authorized once for a period of two years, or three years if at least 10% of the initial appropriation has been encumbered by the first day of January in which the request for reauthorization is made. Reauthorization may not alter the original purpose, although technical changes are permitted. Capital outlay authorizations for projects in excess of $100,000 must appear on a capital improvement plan. Those are the challenges. That is why I described the 10-month window as a challenge that most tribes will face when this is signed into law.\n\n[Rep. Cynthia Borrego]: I agree with you. I debated this bill on the floor and I understand we might work on something to address the entire state, but you're focused on this because of how the capital amount goes into a different plan, and then that plan becomes competitive again with no assurance of reallocation. There's an extra step. I stand behind you on this; it supports the arguments I had on the floor. We need to come back next year and work on a broader scope of that along with the chairman. We are moving in the right direction as far as reorganizing how we get to a final place for capital outlay so that we are more fiscally responsible, but I don't want those communities that are in most need to be harmed. Thank you.\n\n[Chair Rep. D. Wonda Johnson]: Thank you. Representative Tejada.\n\n[Vice Chair Rep. Janelle Tejada]: Thank you, Madam Chair. I'd like to move a do-pass.\n\n[Rep. John Block]: Second.\n\n[Chair Rep. D. Wonda Johnson]: We have a motion for a do-pass by Vice Chair Tejada, and a second by Ranking Member Block. Do we have any opposition? Seeing none, please show all present voting in the affirmative. You have a do-pass. All righty, I see Representative Torres Velasquez is here for House Memorial 65. Good morning, Representative. Welcome to our committee. Anytime you're ready.\n\n[Rep. Torres Velasquez]: Thank you, Madam Chair and members of the committee. This is House Memorial 65. It requests that the Department of Health work together with the Department of Public Safety to convene a task force and conduct research on health and firearm safety policies. The goal is to make recommendations on how to reduce firearm violence in New Mexico. This memorial came about after many meetings with the community and concerns raised by my constituents during my campaign. There are families affected by gun violence and families afraid to send their children to school because of mass shootings. Rather than looking at this as gun control versus gun rights, the group suggested looking at it as a health issue and a safety issue. \n\nOne of the leaders in our group is a doctor and a geriatric specialist. He noted that at medical association conferences, gun violence and gun deaths are consistently identified as top health issues. We can look at this as a public health issue: studying patterns and causes of death. In our research, we found there are approximately 330 million guns in our country and 40,000 deaths. How is it that hundreds of millions of guns are kept safely, but some are used in ways that cause harm? We believe the Department of Health and Public Safety can look for patterns and creative solutions. It's similar to how we looked at car safety in the 60s and 70s. We didn't stop production of cars, but we introduced seatbelts, air cushions, and car seats that saved thousands of lives. We can do the same with firearm safety. This comes from people in House District 30 and neighboring communities. There is strong interest in collecting data and doing research.\n\n[Chair Rep. D. Wonda Johnson]: Let's go to the audience. Do we have any supporting comments or opposition? We'll start with the webcast. Kathleen Mosley.\n\n[Kathleen Mosley]: Madam Chair and members of the committee, thank you for hearing this, and thank you, Representative Torres Velasquez, for bringing House Memorial 65 forward. I'm a retired community health and public health nurse and a gun violence survivor. My professor in my public health program was murdered in one of our country's earliest mass school shooting incidents, which left six dead. According to the K-12 school shooting database, there have been almost 3,000 school shooting incidents in the US. In New Mexico, we are not immune, experiencing over two dozen incidents in that same timeframe. 4% of New Mexico high school children interviewed through the Youth Risk Behavior Survey said they brought a weapon to school in the last 30 days. House Memorial 65 places firearm safety in the purview of the health department and public safety department to make plans with a public health approach using data, policy, and community-based programs. It takes courage to initiate action that keeps people safe given that there are guns in the environment. This gives the departments space to work together on a long-term plan. Thank you.\n\n[Chair Rep. D. Wonda Johnson]: Thank you. Dr. Heather Wood? You have one minute for public comment.\n\n[Dr. Heather Wood]: Good morning, Madam Chair, committee, and Representative Torres Velasquez. Thank you for bringing this memorial. I am in support of House Memorial 65. I'm a family medicine doctor in Albuquerque and gun violence is absolutely a health safety issue. My husband is an emergency medicine doctor and unfortunately sees way too many gun injuries. Just last year at Rust Medical Center ER, there were shots outside the hospital that went through the walls, injuring patients inside who were seeking care. Just yesterday in Tijeras, there was a domestic shooting that left a four-year-old dead and a one-year-old and a mother in critical condition. It would be such a great step to study this and have a cohesive plan to protect all people. Thank you.\n\n[Chair Rep. D. Wonda Johnson]: Thank you. Athena Christodoulou.\n\n[Athena Christodoulou]: I'd like to thank the Chair and the committee for considering this House Memorial and Representative Torres Velasquez. I have seen the effect that a good workgroup can have on future legislation. Because we have a major problem with gun violence, I hope and pray that you would pass this memorial. Thank you.\n\n[Chair Rep. D. Wonda Johnson]: Thank you. Committee members? Representative Block.\n\n[Rep. John Block]: Thank you, Madam Chair, and thank you, Representative. I'm not adverse to this idea. I'm wondering how we selected the individuals for the task force. One concern I have is that there isn't someone from a gun safety training perspective. In my community, we have stakeholders like gun range instructors, folks from Project Appleseed, and the NRA who do courses in gun safety. I would love to have those voices. Were they considered?\n\n[Rep. Torres Velasquez]: Excellent question, Representative Block. These are suggestions for who would be on the task force and it is not limited to these ideas. There is certainly room for someone such as those you described. My daughter-in-law just finished her gun safety classes and has wonderful instructors. I recognize those would be very important people to include because they teach gun safety and how to use a firearm properly. Absolutely, let's put someone from that area on here as well.\n\n[Rep. John Block]: Thank you, Madam Chair and Representative. I appreciate that. I see 'community and prevention stakeholders' which may vaguely cover them, but I'd like to see it explicitly. On page four, we talk about police chiefs of Albuquerque, Las Cruces, or Santa Fe. Have we considered other places in more rural areas or even tribal areas?\n\n[Rep. Torres Velasquez]: Yes, absolutely, Madam Chair and Representative. We want to make sure that's clear and that it actually comes to be. Guns are everywhere, and we want to work with constituents in rural areas as much as the cities.\n\n[Rep. John Block]: I appreciate that. One more question on page three. There is a 'whereas' that says 'as global temperatures rise because of climate change, suicide rates are also likely to rise.' How did we get to that? If we are targeting firearm safety, does rising temperature have to do with firearms? I'm not sure I see the correlation.\n\n[Rep. Torres Velasquez]: I believe two-thirds of deaths by gun violence are suicides. One correlation appearing in the data is that when living conditions are hard in terms of extreme temperature, sometimes people resort to taking their own lives. It was intended to capture issues starting to come up in the data. We've been working on this for some time, and we also want to look at supporting veterans in terms of gun safety as well.\n\n[Rep. John Block]: I haven't seen the data on that, so I wouldn't feel comfortable voting on this right now. I know in places like Washington State or England where there is a lack of sunlight, there are high suicide rates. But in New Mexico, we have so much sunlight. I'm not sure about the temperature argument. I appreciate you taking this on because I want to end violence in our communities and prevent suicide. I have many veterans in my district. I also love guns—I want to make sure people are owning them safely and doing courses so they have the skills ready. Because of the data I haven't seen regarding climate and the need for tighter language on rural and safety stakeholders, I can't support it at this time, but I thank you for the conversation.\n\n[Rep. Torres Velasquez]: Yes, Madam Chair. One of the assumptions is that gun deaths are correlated with mental health, and that relates to the question on suicide. Looking at the data would be very helpful in identifying patterns and solutions. Being in my first term, I am still learning, but I'm happy to provide websites with more data. We aren't really collecting or using this process yet in the state, and that is what we want to start doing.\n\n[Rep. Cynthia Borrego]: The purpose of the task force would be to get more information and data specifically for New Mexico. We know we are among the highest states for gun-related suicides. I think you are hitting on an important point. In the second judicial district, there is a task force related to this that we just gave funding to through the budget. It's held in the DA's office. You are on the same track as what is already going on. I support you.\n\n[Vice Chair Rep. Janelle Tejada]: Thank you, Madam Chair and Representative, for bringing this forward. I think this will open opportunities for more information. I am pleased to see research to study the connection between alcohol use and gun violence, and the suicide rate which is a huge loss for rural communities. As a member of a family affected by gun violence, this is very important to me. My question is about the timeline. I see the end date for the report is September 15th. What are your expected meeting times and how will the group be assembled?\n\n[Rep. Torres Velasquez]: Thank you, Madam Chair and Madam Vice Chair. I am joined by Senator Pinto, who has proposed similar memorials. For the timeline, we thought monthly meetings would be appropriate. The September 15th deadline was set so the report could be given to the interim health committee so they can start making suggestions for the next session.\n\n[Rep. Anyanonu]: Madam Chair, I move a do-pass.\n\n[Chair Rep. D. Wonda Johnson]: We have a motion for a do-pass and a second. Clerk, please call the roll.\n\n[Committee Clerk]: Representative Anyanonu? Yes. Representative Block? No. Representative Borrego? Yes. Representative Madalena? Yes. Representative Martinez? No. Representative Szczepanski? Yes. Representative Zamora? No.\n\n[Chair Rep. D. Wonda Johnson]: Madam Chair, you have four in the affirmative and three in the negative. The motion passes. You have a do-pass on your memorial. Good morning, Senator Pinto. Committee members, we are adjourned.",
+  "full_text": "[Chair Rep. D. Wonda Johnson]: Good morning, everyone. Let's go ahead and call the House Government, Elections and Indian Affairs Committee to order. Clerk, please call the roll.\n\n[Committee Clerk]: Representative Garcia? Representative Block? Representative Lujan? Representative Rubio? Representative Szczepanski? Representative Little? Madam Chair?\n\n[Chair Rep. D. Wonda Johnson]: We have a quorum. You may begin, Representative.\n\n[Rep. Harry Garcia]: Thank you, Madam Chair and members. My name is Representative Harry Garcia from House District 69. I am accompanied by our fiscal analyst. House Memorial 64 is sponsored by myself and Chair Lente. This memorial requests that the Indian Affairs Department build capacity to provide technical assistance to the state's Indian nations, tribes, and pueblos to promote the effective and timely use of capital project funds. Madam Chair and members, as you recall, there was legislation that Chair Lente proposed, House Bill 247, that changed some of the capital outlay rules. In the interim, we heard from many tribal communities about the significant challenges within the different systems. This memorial encourages the Indian Affairs Department to fill the three positions that are currently open to assist our tribal communities with capital outlay. We are hopeful that this will be a potential solution. If implemented, it will give tribal nations and pueblos about 10 months to start spending down based on the criteria listed in House Bill 247 to maintain their capital outlay appropriations. If they are not able to meet those criteria, the funds go to a tribal infrastructure fund where they have to apply all over again in a very competitive process. So again, this memorial requests assistance from the Indian Affairs Department to continue support services. I am committed to making sure we get this back on track. Thank you.\n\n[Chair Rep. D. Wonda Johnson]: Thank you. Let's go to the audience. Do we have anyone who wishes to speak in support or opposition? Seeing none in the room, let's go to the webcast. If not, I will go to the Vice Chair for questions.\n\n[Vice Chair Rep. Charlotte Little]: Thank you, Madam Chair, and thank you, Representative, for bringing this forward. We have problems throughout the state everywhere we look with capital outlay money and how it is being handled. When you were doing your investigation and studying how to approach this, did you come across anything that you thought might be a bill you could put together for the whole state instead? Or are your issues within Indian Affairs fully different than the rest of the state?\n\n[Rep. Harry Garcia]: Thank you, Madam Chair and Representative. I was solely focused on the way that our capital outlay allocations from this body flow to the Indian Affairs Department and then down to our communities. I do understand that there are issues elsewhere. I spoke with a Representative yesterday about this regarding our smaller acequia groups and land grant groups. However, at the moment, I do not have them included in this memorial because I believe they go through the Department of Finance and Administration (DFA) directly and they have other sources of support. This here is specific to the tribal entities, pueblos, and nations that have to go through the Indian Affairs Department.\n\n[Vice Chair Rep. Charlotte Little]: Okay. I just think sometimes when we concentrate on one area, we should be looking at the whole state and how we fix our issues, but I look forward to the rest of the debate. Thank you, Madam Chair.\n\n[Rep. Tara Lujan]: Thank you, Madam Chair. I had similar questions. During the debate on Chairman Lente's bill, I actually voted against it because I had many of these concerns. I support this memorial because of the issues regarding how quickly those changes take effect. Can you go over those changes a little bit more, specifically regarding how they relate to your memorial?\n\n[Rep. Harry Garcia]: Thank you, Madam Chair and Representative. If you look at House Bill 247, there are requirements set forth regarding unexpended money and how it will be reverted. Some of the rules are that projects may only be reauthorized once. There is a period of two years, or three if at least 10% of the initial appropriation has been encumbered by the first day of January in which the request for reauthorization is made. Reauthorization may not alter the original purpose, although technical changes are permitted. Capital outlay appropriations for projects in excess of $100,000 must appear on a capital improvement plan. Those are the challenges, and that is why I described the 10-month window as a challenge most tribes will face when this is signed.\n\n[Rep. Tara Lujan]: I agree with you. I debated this bill on the floor and I understand we might work on something to address the entire state, but you are focused on this because the capital goes into a different plan that becomes competitive again. There are no assurances that you will be reallocated those funds. I stand behind you on this; it supports the arguments I had on the original bill. We need to come back next year and work on a broader scope of this along with the chairman. I think we are moving in the right direction in terms of fiscal responsibility, but we need to be careful not to hurt the communities in most need. Thank you.\n\n[Vice Chair Rep. Charlotte Little]: Thank you, Madam Chair. I'd like to move a do-pass.\n\n[Rep. John Block]: Second.\n\n[Chair Rep. D. Wonda Johnson]: We have a motion for a do-pass by Vice Chair Little and a second by Ranking Member Block. Do we have any opposition? Seeing none, please show all present voting in the affirmative. You have a do-pass. All right, I see Representative Torres Velasquez here for House Memorial 65.\n\n[Rep. Janelle Torres Velasquez]: Thank you, Madam Chair and members of the committee. House Memorial 65 requests that the Department of Health work together with the Department of Public Safety to convene a task force and conduct research on health and firearm safety policies. This group would make recommendations on how to reduce firearm violence in New Mexico. This memorial came about after many meetings with the community and concerns raised by my constituents. There were families affected by gun violence, families afraid to send their children to school due to mass shootings, and families who own guns and want to protect their rights. Rather than looking at this as gun control versus gun rights, we are suggesting looking at it as a public health and safety issue. One of the leaders in our group is a doctor who noted that gun violence is a top health issue at medical conferences. We can look at this as a medical issue—treatment in the ER—or a public health issue where we study patterns and causes. In our research, we found there are approximately 330 million guns in our country and about 40,000 deaths. We want to look at why many guns are kept safely while others cause harm. We can look for patterns and creative solutions, similar to how we approached car safety in the 1960s. We didn't stop car production, but we introduced seatbelts, airbags, and car seats which saved thousands of lives. We want to do the same for firearm safety. This comes from people in House District 30 and neighboring communities. There is a strong interest in collecting data and doing research.\n\n[Chair Rep. D. Wonda Johnson]: Thank you. Let's go to the audience for support. We will start with the webcast.\n\n[Kathleen Mosley]: Madam Chair and members of the committee, thank you to the sponsor. I am a retired public health nurse and a gun violence survivor. My professor was murdered in one of our country's earliest mass school shootings. According to the K-12 school shooting database, there have been almost 3,000 school shooting incidents in the US. In New Mexico, we have experienced over two dozen incidents in that same timeframe. Four percent of New Mexico high school children interviewed in a risk behavior survey said they brought a weapon to school in the last 30 days. House Memorial 65 places firearm safety in the purview of the Health Department and Public Safety Department to use a data-driven approach regarding policy, community programs, and storage practices. It takes courage to initiate action that keeps people safe, and this gives the departments the space to work together on a long-term plan. Thank you.\n\n[Dr. Heather Abeyta]: Good morning, Madam Chair and committee. I am in support of House Memorial 65. I am a family medicine doctor in Albuquerque. Gun violence is absolutely a health safety issue. My husband is an emergency medicine doctor and unfortunately sees way too many gun injuries. Just last year at Rust Medical Center, shots fired outside the hospital went through the walls and injured patients inside the ER. Just yesterday in Tijeras, a domestic shooting left a four-year-old dead and a mother and one-year-old in critical condition. It would be a great step to study this and have a cohesive plan to protect people. Thank you.\n\n[Athena Christodoulou]: Thank you, Madam Chair and the committee. I have seen the effect that a good workgroup can do on future legislation. We have a major problem with gun violence, and I hope and pray that you would pass this memorial. Thank you.\n\n[Rep. John Block]: Thank you, Madam Chair and Representative. I am not adverse to this idea, but I have a few questions. I'm wondering how we selected the individuals for the task force. I'm concerned there isn't someone from a gun safety training perspective, like instructors from a gun range or groups like Project Appleseed or the NRA, who provide safety courses. Were those voices considered?\n\n[Rep. Janelle Torres Velasquez]: Excellent question, Representative Block. These are suggestions for the task force and it's not limited to these ideas. There is certainly room for someone such as you described. My daughter-in-law just graduated from gun safety classes and had wonderful instructors. I recognize these would be important people to have on the task force because they teach safe usage. We should absolutely put someone from that area on the list.\n\n[Rep. John Block]: I appreciate that. On page four, we talk about police chiefs from Albuquerque, Las Cruces, or Santa Fe. Have we considered including representatives from rural or tribal areas?\n\n[Rep. Janelle Torres Velasquez]: Yes, absolutely. We should make sure that language is clear in the memorial.\n\n[Rep. John Block]: Thank you. Another question on page three: there is a 'whereas' clause stating that as global temperatures rise because of climate change, suicide rates are also likely to rise. How did we get to that correlation? Does rising temperature have to do with firearms?\n\n[Rep. Janelle Torres Velasquez]: I believe about two-thirds of deaths by gun violence are suicides. One correlation that started coming up in data was that when living conditions are hard in terms of temperature, sometimes people resort to taking their own lives. It was intended to capture issues appearing in the data. We also want to support veterans in terms of gun safety, which is another issue we've been working on for some time.\n\n[Rep. John Block]: I haven't seen the data on that correlation, so I wouldn't feel comfortable voting on this today without looking at it. I know places with less sunlight have higher suicide rates, but I haven't heard the argument regarding global warming. However, I appreciate you taking this on. I want to end violence in our communities and prevent suicide. I have a lot of veterans in my district and I hate to hear of any suicide. I also love guns—everyone knows that—and I want to ensure people can own them safely and be a good shot to protect their homes. I can't support it right now because of the data I haven't seen and I'd like tighter language on the task force members, but I will continue to listen.\n\n[Rep. Janelle Torres Velasquez]: Thank you. One of the assumptions is that gun deaths are correlated with mental health. Looking at the data would help us address not just gun violence but suicides that may or may not be gun-related. I am still learning and I'm happy to provide websites with more data. We aren't collecting or using this specific process yet in the state, and we want to start looking at patterns to identify solutions.\n\n[Chair Rep. D. Wonda Johnson]: Thank you. The purpose of this task force is to work together to get more information specifically for New Mexico, as we are a high-ranking state for suicides. I think you are hitting the point and keeping this in accordance with human services and health. You have listed the composition of the task force, correct?\n\n[Rep. Janelle Torres Velasquez]: Yes, Madam Chair. We made suggestions for who should serve, looking first at entities important for both collecting and making sense of the data.\n\n[Chair Rep. D. Wonda Johnson]: I like this. In the Second Judicial District, there is a task force related to this that we just gave funding to through the budget. It is held in the DA's office. I just want to make that recognition that you are on the same track with what is going on. I support you.\n\n[Vice Chair Rep. Charlotte Little]: Thank you, Madam Chair and Representative. I think this will provide opportunities for more information. I am pleased to see research into the connection with alcohol use in New Mexico. The suicide rate in rural communities is also a huge loss. Being a family affected by gun violence, this is really important to me. I don't want any family to go through what mine did. I see the report deadline is September 15th. What is your expected timeline and meeting schedule for this group?\n\n[Rep. Janelle Torres Velasquez]: Thank you, Madam Chair and Vice Chair. I am joined by Senator Pinto, who has proposed similar memorials in the past. We had thought of monthly meetings. The September 15th deadline was set so the report could be given to the interim Health Committee so they can start making suggestions for the next session.\n\n[Chair Rep. D. Wonda Johnson]: Thank you. Any further questions?\n\n[Rep. Angelica Rubio]: I move a do-pass.\n\n[Chair Rep. D. Wonda Johnson]: We have a motion for a do-pass. Clerk, please call the roll.\n\n[Committee Clerk]: Representative Rubio? Yes. Representative Block? No. Representative Borrego? [No response]. Representative Long? [No response]. Representative Maestas? No. Representative Szczepanski? [No response]. Representative Zamora? [No response]. Vice Chair Little? Madam Chair?\n\n[Chair Rep. D. Wonda Johnson]: Madam Chair, you have four in the affirmative and three in the negative. You have a do-pass on your memorial. Good morning, Senator Pinto. Thank you, committee members.",
   "raw_segments": [
     {
       "start": 0.0,
@@ -288,18 +278,23 @@
     },
     {
       "start": 32.0,
-      "end": 35.5,
+      "end": 35.6,
       "text": "Let's go ahead and allow our Indianers."
     },
     {
-      "start": 35.5,
+      "start": 35.6,
       "end": 37.0,
       "text": "There's many many to order."
     },
     {
       "start": 37.0,
-      "end": 39.0,
+      "end": 38.0,
       "text": "Please follow."
+    },
+    {
+      "start": 38.0,
+      "end": 39.0,
+      "text": "Roll."
     },
     {
       "start": 39.0,
@@ -323,23 +318,23 @@
     },
     {
       "start": 43.0,
-      "end": 45.0,
+      "end": 44.0,
       "text": "Represidents."
     },
     {
-      "start": 45.0,
+      "start": 44.0,
       "end": 46.0,
-      "text": "President."
+      "text": "We want to present."
     },
     {
       "start": 46.0,
       "end": 47.0,
-      "text": "President."
+      "text": "Represidents."
     },
     {
       "start": 47.0,
       "end": 48.0,
-      "text": "What was president."
+      "text": "What present."
     },
     {
       "start": 48.0,
@@ -369,7 +364,7 @@
     {
       "start": 53.0,
       "end": 54.0,
-      "text": "Here."
+      "text": "Any here."
     },
     {
       "start": 54.0,
@@ -388,78 +383,98 @@
     },
     {
       "start": 57.0,
-      "end": 58.0,
-      "text": "Is it risky?"
+      "end": 62.0,
+      "text": "Here."
     },
     {
-      "start": 58.0,
-      "end": 59.0,
+      "start": 62.0,
+      "end": 64.0,
+      "text": "Where."
+    },
+    {
+      "start": 64.0,
+      "end": 65.0,
       "text": "Represidents."
     },
     {
-      "start": 60.0,
-      "end": 61.0,
-      "text": "Represizzase."
+      "start": 65.0,
+      "end": 66.0,
+      "text": "We're here."
     },
     {
-      "start": 61.0,
-      "end": 64.36,
-      "text": "Represestants and"
+      "start": 66.0,
+      "end": 68.0,
+      "text": "Madam Mayor chair."
     },
     {
-      "start": 64.36,
-      "end": 65.8,
-      "text": "Represidentsrepent."
-    },
-    {
-      "start": 65.8,
-      "end": 67.0,
-      "text": "Madam chair."
-    },
-    {
-      "start": 67.0,
-      "end": 68.8,
-      "text": "Madam chair."
-    },
-    {
-      "start": 68.8,
+      "start": 68.0,
       "end": 70.0,
-      "text": "Hahaha."
+      "text": "You're here."
     },
     {
       "start": 70.0,
-      "end": 72.0,
+      "end": 71.0,
       "text": "Okay."
     },
     {
-      "start": 72.0,
-      "end": 73.0,
-      "text": "Warham."
+      "start": 71.0,
+      "end": 72.0,
+      "text": "We have worm."
     },
     {
-      "start": 73.0,
-      "end": 76.0,
+      "start": 72.0,
+      "end": 74.0,
       "text": "You may make it again."
     },
     {
+      "start": 74.0,
+      "end": 75.0,
+      "text": "Thank you, Madam."
+    },
+    {
+      "start": 75.0,
+      "end": 76.0,
+      "text": "Madam chair, good morning."
+    },
+    {
       "start": 76.0,
+      "end": 77.0,
+      "text": "Many."
+    },
+    {
+      "start": 77.0,
+      "end": 78.0,
+      "text": "Many members."
+    },
+    {
+      "start": 78.0,
       "end": 79.0,
-      "text": "Thank you, Madam Chair."
+      "text": "My name is resident of a data."
     },
     {
       "start": 79.0,
       "end": 80.0,
-      "text": "Your meeting members."
+      "text": "From House district69."
     },
     {
       "start": 80.0,
       "end": 82.0,
-      "text": "My name is Justin Medvedo from Consас District 69."
+      "text": "And they have come, company,"
     },
     {
       "start": 82.0,
+      "end": 84.0,
+      "text": "five承."
+    },
+    {
+      "start": 84.0,
+      "end": 85.5,
+      "text": "They go is the school."
+    },
+    {
+      "start": 85.5,
       "end": 86.0,
-      "text": "And today I come by to me and you take a look at this law specialist."
+      "text": "Analyst."
     },
     {
       "start": 86.0,

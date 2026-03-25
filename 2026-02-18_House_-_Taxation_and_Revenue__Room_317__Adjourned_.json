@@ -7,7 +7,7 @@
   "stream_url": "https://sg002-live.sliq.net/00293-vod-2/_definst_/2026/02/18/House%20-%20Taxation%20and%20Revenue_2026-02-18-14.07.56_79744_38.mp4/playlist.m3u8",
   "duration_seconds": 1091.2,
   "whisper_model": "base",
-  "transcribed_at": "2026-03-25T12:31:51.835349",
+  "transcribed_at": "2026-03-25T13:28:17.908673",
   "committee": "House Taxation and Revenue",
   "day_of_week": "Wednesday",
   "start_time": "2:07 PM",
@@ -17,7 +17,7 @@
     {
       "bill": "SB 240",
       "title": "Capital Outlay Projects",
-      "sponsor": "Senator Rodriguez / Rep. Lente"
+      "sponsor": "Senate Finance Committee"
     }
   ],
   "votes": [
@@ -29,223 +29,207 @@
   ],
   "speaker_map": [
     {
-      "name": "Derrick Lente",
-      "role": "Committee Chair / Bill Presenter",
+      "name": "Representative Christine Chandler",
+      "role": "Committee Chair",
       "party": "D",
       "confidence": "high"
     },
     {
-      "name": "Micaela Lara Cadena",
-      "role": "Committee Vice Chair (Presiding)",
+      "name": "Representative Harry Lente",
+      "role": "Bill Presenter / Chair of Appropriations",
       "party": "D",
       "confidence": "high"
     },
     {
-      "name": "Rod Montoya",
-      "role": "Representative",
-      "party": "R",
-      "confidence": "high"
-    },
-    {
-      "name": "Patricia Lundstrom",
-      "role": "Representative",
-      "party": "D",
+      "name": "Kelly O'Donnell",
+      "role": "Staff Analyst",
+      "party": "N/A",
       "confidence": "high"
     },
     {
       "name": "Wesley Billingsley",
-      "role": "Director, DFA Capital Outlay",
-      "organization": "Department of Finance and Administration",
+      "role": "Director of Capital Outlay, DFA",
+      "party": "N/A",
       "confidence": "high"
     },
     {
-      "name": "Kelly Farrar",
-      "role": "Staff Analyst",
-      "organization": "DFA/LFC",
-      "confidence": "medium"
+      "name": "Representative Rod Montoya",
+      "role": "Committee Member",
+      "party": "R",
+      "confidence": "high"
     }
   ],
-  "summary": "The committee reviewed the $1.3 billion capital outlay package (SB 240), including funding for statewide infrastructure, higher education, and local projects. Significant debate occurred regarding a $15 million appropriation for a clinical facility in San Miguel County, which some members suspected might be intended for reproductive health services, and a technical error concerning the location of the Navajo Code Talker Museum.",
-  "num_turns": 35,
+  "summary": "The committee reviewed and passed the $1.3 billion Capital Outlay bill (SB 240). Debate centered on a $15 million appropriation for a hospital purchase in San Miguel County, which some Republican members suspected was intended for reproductive health services. There was also a technical discussion regarding a location error for the Navajo Code Talker Museum in the bill's supplemental charts.",
+  "num_turns": 33,
   "num_speakers": 12,
   "turns": [
     {
-      "speaker": "Committee Clerk",
+      "speaker": "Chairwoman Rep. Christine Chandler",
       "timestamp": "00:00",
-      "text": "We are going to start this afternoon. We will be hearing the Senate Finance Committee substitute for Senate Bill 240, and we'll do roll call now. Representative Chandler? Here. Representative Duncan? Here. Representative Gallegos? Here. Representative Harper? Here. Representative Hernandez? Here. Representative Lundstrom? Here. Speaker Martinez? [No response]. Representative Montoya? Here. Representative Pettigrew? Here. Representative Silva? Here. Representative Terrazas? Here. Madam Vice Chair Cadena? Here. Chairman Lente? I'm here."
+      "text": "We are going to start this afternoon. We will be hearing Senate Bill 240, and we'll do roll call now."
     },
     {
-      "speaker": "Vice Chair Rep. Cadena",
+      "speaker": "Committee Clerk",
+      "timestamp": "00:13",
+      "text": "Representative Chandler? (Here). Representative Duncan? (Here). Representative Gallegos? (Here). Representative Herrera? (Here). Representative Hernandez? (Here). Representative Lundstrom? (Here). Speaker Martinez? (Excused). Representative Montoya? (Here). Representative Pato? (Here). Representative Silva? (Here). Representative Terrazas? (Here). Madam Vice Chair Cadena? (Here). Chairman Lente?"
+    },
+    {
+      "speaker": "Rep. Harry Lente",
       "timestamp": "00:49",
-      "text": "Mr. Chair, when you're ready, we'll hear the committee staff presentation on SB 240."
+      "text": "I'm here, Madam Chair. When you're ready, we have committee staff here for SB 240. Great, thank you, Madam Chairwoman. Thank you, committee, for meeting this afternoon on short notice. The Senate Finance Committee substitute for Senate Bill 240, as amended, appropriates $1.3 billion to capital projects statewide. Those projects include $525 million in this bill appropriated to projects prioritized by House and Senate members and the Governor. The remainder of the dollars are appropriated to state agency, judicial, and higher education projects. Some of the state agency projects are for the benefit of local entities. The appropriations in the bill include $445 million from the General Fund, $444 million in severance tax bonds, and $280 million in supplemental severance tax bonds. Just for our reference, those amendments that I made reference to earlier were on the Senate floor and it took care of a couple of technical errors. One was a drafting error that sent appropriations to the wrong agency or, in one case, the wrong project. That was one of the amendments that was done on the Senate floor. There was another amendment that ensures the funds for these projects are appropriated as the sponsors intended and do not delay the use of funds by the grantees. Those are the Senate amendments from their floor. Madam Chairwoman, before you, you have a list of your projects and those charts broken down by counties. Hopefully that helps you refer to and reference those projects in your counties. With that, Madam Chairwoman, we will stand for any questions."
     },
     {
-      "speaker": "Rep. Derrick Lente",
-      "timestamp": "01:01",
-      "text": "Great, thank you Madam Chairwoman. Thank you, committee, for meeting this afternoon on short notice. The Senate Finance Committee substitute for Senate Bill 240, as amended, appropriates $1.3 billion to capital projects statewide. Those projects include $525 million in this bill appropriated to projects prioritized by House and Senate members and the Governor. The remainder of the dollars are appropriated to state agency, judicial, and higher education projects. Some of the state agency projects are for the benefit of local entities. The appropriations in the bill include $445 million from the general fund, $444 million in severance tax bonds, and $280 million in supplemental severance tax bonds. Just for our reference, those amendments that I made reference to earlier were on the Senate floor and it took care of a couple of technical errors. One was a drafting error that sent appropriations to the wrong agency, or in one case the wrong project; that was one of the amendments done on the Senate floor. There was another amendment that ensures the funds for these projects are appropriated as the sponsors intended and do not delay the use of funds by the grantees. Those are the Senate amendments from their floor. Madam Chairwoman, before you, you have a list of your projects and those charts broken down by counties, so hopefully that helps you reference those projects in your counties. With that, Madam Chairwoman, we will stand for any questions."
-    },
-    {
-      "speaker": "Vice Chair Rep. Cadena",
+      "speaker": "Chairwoman Rep. Christine Chandler",
       "timestamp": "02:39",
-      "text": "Thank you. We will go to public comments. For those joining us online, please raise your hand if you'd like to speak in support or opposition to the Senate Finance Committee substitute for Senate Bill 240. Seeing no hands raised, we'll go to those joining us in person. Please line up if you'd like to speak in support or opposition to Senate Bill 240. Seeing no audience members standing up, we will now go to the committee for discussion. Representative Duncan?"
+      "text": "Thank you. We will go to public comments. For those joining us online, please raise your hand if you'd like to speak in support or opposition to the Senate Finance Committee substitute for Senate Bill 240. Seeing no hands raised, we'll go to those joining us in person. Please line up if you'd like to speak in support or opposition to Senate Bill 240. Seeing no audience members standing up, we will now go to committee for discussion. Representative Duncan."
     },
     {
-      "speaker": "Rep. Jim Duncan",
-      "timestamp": "03:12",
-      "text": "Thank you, Madam Chair. Mr. Chair, when we do capital outlay projects for, let's say, a backhoe as opposed to maybe a water project, are we spending the funds we actually have now on those smaller ticket items, and then on the severance bonds, are we putting those toward the projects that will go out 20 years? Is there a separation there?"
+      "speaker": "Rep. Meredith Duncan",
+      "timestamp": "03:22",
+      "text": "Thank you, Madam Chair. Mr. Chair, when we do capital projects for, let's say, a backhoe, as opposed to maybe a water project, are we spending the funds we actually have now on those smaller ticket items, and then on the severance bonds, are we putting those toward the projects that will go out 20 years? Is there a separation there?"
     },
     {
-      "speaker": "Rep. Derrick Lente",
+      "speaker": "Rep. Harry Lente",
       "timestamp": "03:56",
-      "text": "Madam Chairwoman, I would like to also introduce my expert—we should all know her by this point—Kelly Farrar as well. Kelly, would you be able to field that question for us?"
+      "text": "Madam Chairwoman, I would like to also introduce my expert—we should all know her by this point—Kelly O'Donnell. Kelly, would you be able to field that question for us?"
     },
     {
-      "speaker": "Kelly Farrar",
-      "timestamp": "04:07",
-      "text": "Madam Chair, Representative, we have had more ability to do that recently. You're asking about trying to pay cash for small assets and equipment and to reserve our debt financing for larger projects that have a 10-year or more lifespan. I would say that we have done that in this bill because the bonding capacity was really reserved for the statewide side of the bill, and the general fund funded the discretionary projects which tend to involve more of that equipment. Essentially, our general fund surpluses have allowed us to do that to a greater extent recently than in the past, and that includes this year."
+      "speaker": "Kelly O'Donnell",
+      "timestamp": "04:01",
+      "text": "Madam Chair, Representative, we have had more ability to do that recently. You're asking about trying to pay cash for small assets and equipment and to reserve our debt financing for larger projects that have a 10-year or more lifespan. I would say that we have done that in this bill because the bonding capacity was really reserved for the statewide side of the bill, and the General Fund funded the discretionary projects, which tend to involve more of that equipment. Essentially, our General Fund surpluses have allowed us to do that to a greater extent recently than in the past, and that includes this year."
     },
     {
-      "speaker": "Rep. Jim Duncan",
+      "speaker": "Rep. Meredith Duncan",
       "timestamp": "04:53",
-      "text": "Okay, thank you Madam Chair and thank you for that. One last question. I think there's a lot of good things in here, projects that just need to be done and finished up for our communities. One question for you, Mr. Chairman: are you aware of the funds on item 3730, the purchase of the hospital in Las Vegas? Will that be used for abortions? Are you aware?"
+      "text": "Okay, thank you, Madam Chair, and thank you for that. One last question. I think there's a lot of good things in here—projects that just need to be done and finished up for our communities. One question for you, Mr. Chairman: are you aware of the funds on item 3730 regarding the purchase of the hospital in Las Vegas? Will that be used for abortion? Are you aware?"
     },
     {
-      "speaker": "Rep. Derrick Lente",
+      "speaker": "Rep. Harry Lente",
       "timestamp": "05:32",
-      "text": "Madam Chairwoman and Representative, as we refer to this list, I'll be in full transparency to this body that in combing through these types of things, I look at things for what they are. When I see something—like last year, there was an issue or concern that you had brought to me, and you asked me if I saw anything regarding women's reproductive health to let you know. I was looking at this, and while it's not explicitly mentioned here in this bill, there is $15 million in this budget from the Governor's share to purchase a hospital in San Miguel County as I understand it. The reference to it is vague enough where it doesn't make any mention of reproductive health, but I thought it nonetheless important to at least share that I saw that. It is what it is in terms of what it says in the bill, but in regards to your question, no sir, I cannot confirm that it is for that purpose."
+      "text": "Madam Chairwoman and Representative, as we refer to this list, I'll be in full transparency to this body that in coming through these types of things, I look at things for what they are. When I see something like last year, where there was an issue or a concern that you had brought to me regarding women's reproductive health, I looked at this. While it's not explicitly mentioned here in this bill, there is $15 million in this budget from the Governor's share to purchase a hospital in San Miguel County, as I understand it. The reference to it is vague enough where it doesn't make any mention to reproductive health, but I thought it nonetheless important to at least share that I saw that. It is what it is in terms of what it says in the bill, but in regards to your question, no sir, I cannot confirm that it is for an abortion facility."
     },
     {
-      "speaker": "Rep. Jim Duncan",
+      "speaker": "Rep. Meredith Duncan",
       "timestamp": "06:41",
-      "text": "Thank you, Mr. Chairman, and thank you for being so honest with me last year and again with this. I'm going to assume that when the Governor came out and said she wanted to put a facility up north, this may be it. Thank you for that information, Mr. Chair. Thank you, Madam Chair, that's the only question I have."
+      "text": "Thank you, and thank you for being so honest with me last year and again with this. I'm going to assume that when the Governor came out and said she wanted to put a facility up north, I'm going to assume this may be it. Thank you for that information, Mr. Chair. Thank you, Madam Chair. That's the only question I have."
     },
     {
       "speaker": "Rep. Rod Montoya",
       "timestamp": "07:10",
-      "text": "Thank you, Madam Chair. Mr. Chairman, on that, we specifically gave—I think the Governor put $10 million last year towards a facility in northern New Mexico. Would this be $15 million on top of that $10 million? Because one could read this as the previous one was specifically for an abortion facility, and this says 'clinical services building,' suggesting this could be an addition. I'm just curious because there didn't have to be a reauthorization for that, and I don't know that the money was taken back; there is still time to spend that money. The way I'm reading this is $10 million last year and another $15 million this year. It would be nice to know before we get to the floor how big of a facility that's going to be. $10 million seemed like an adequate amount for what we knew last year. Is there any possibility of trying to get a little bit more information before we move on to the floor?"
+      "text": "Thank you, Madam Chair. So, Mr. Chairman, on that, we specifically gave—I think the Governor put $10 million last year towards a facility in northern New Mexico. Would this be $15 million on top of that $10 million? Because one could read this as the last one being specifically for an abortion facility, while this says 'clinical services building,' which could be an addition to that. I'm just curious because there didn't have to be a reauthorization for that, and I don't know if that money was taken back; there is time to spend that money. The way I'm reading this is $10 million last year and another $15 million this year. It would be nice to know before we get to the floor how big of a facility that's going to be. $10 million seemed like an adequate amount for what we knew last year. I'm not sure this is the same thing. Is there any possibility of trying to get a little bit more information before we move to the floor?"
     },
     {
-      "speaker": "Rep. Derrick Lente",
-      "timestamp": "08:49",
-      "text": "Madam Chairwoman, Representative, at this point I cannot suggest that this is in any way, shape, or form an addition to or expansion on the work they did last year with the $10 million. The $15 million here represents the Governor's share, and again I would invite those that are interested or inquisitive about this to call the Governor's office themselves. It's the job of the LFC and the LSC to prepare these bills and create the best data, but I think it's for the rest of us and your analysts to thereafter get the information that you need. I couldn't, on the Governor's behalf, represent what the intent is for these dollars."
+      "speaker": "Rep. Harry Lente",
+      "timestamp": "08:41",
+      "text": "Madam Chairwoman, Representative, at this point, I cannot suggest that this is in any way, shape, or form an addition to or an expansion on the work they did last year with the $10 million. The $15 million here represents what it does, and again, I would invite those that are interested or inquisitive about this to call the Governor's office themselves. It's the job of the LFC and the LCS to prepare these bills and create the best data with appropriate numbers. I think it's for the rest of us and your analysts to then get the information that you need. I couldn't, on the Governor's behalf, represent in any shape or form what the intent is for these dollars."
     },
     {
       "speaker": "Rep. Rod Montoya",
       "timestamp": "09:32",
-      "text": "Thank you, Madam Chair. Mr. Chairman, I truly hope this was maybe an addition to include an overall facility, and I will try and reach out to the Governor's office before we vote on the floor. But as it is here in committee today, I'm going to have to vote no. I love everything else; this is the one bill that gets passed every year that I think all of us like because this is where we have direct input on projects in our community. I'm going to vote no now, and I hope that in conversation with the Governor's office, I find this is not additional money for that purpose. If that's the case, I would love to start being able to vote for capital outlay bills again, but I just wanted to make that clear. Thank you."
+      "text": "Thank you, Madam Chair. Mr. Chairman, I truly hope this was maybe an addition to include an overall facility, and I will try and reach out to the Governor's office before we vote on the floor. But as it is here in committee today, I'm going to have to vote no. I love everything else—I love what we're able to do in this. This is the one bill that gets passed every year that I think all of us like because this is where we have direct input on the projects in our community. I'm going to vote no now, and I hope that in conversation with the Governor's office, I find this is not additional money for that purpose but for a different purpose. If that's the case, I would love to start being able to vote for capital outlay bills again, but I just wanted to make that clear. Thank you."
     },
     {
-      "speaker": "Rep. Patricia Lundstrom",
+      "speaker": "Rep. Patty Lundstrom",
       "timestamp": "10:38",
-      "text": "Thank you, Madam Chair. I'm looking at the bigger document, page 57, at the very bottom: Navajo Code Talker Museum. It says it's in San Juan County; that should be McKinley County."
+      "text": "Thank you, Madam Chair. I'm looking at the bigger document, page 57, very bottom: Navajo Code Talker Museum. It says it's in San Juan County; that should be McKinley County."
     },
     {
-      "speaker": "Rep. Derrick Lente",
-      "timestamp": "10:58",
-      "text": "Madam Chair, Representative, I'm going to ask Wesley Billingsley if he could answer that question. I believe this is one of the Governor's projects that I'm not privy to the details of, but he may know."
+      "speaker": "Rep. Harry Lente",
+      "timestamp": "10:49",
+      "text": "Madam Chair, Representative, I'm going to ask Wesley Billingsley if he could answer that question. I believe these are the Governor's projects that I'm not privy to the details of, but he may know."
     },
     {
       "speaker": "Wesley Billingsley",
-      "timestamp": "11:13",
-      "text": "Madam Chair, Representative, the plan is to assess where the facility is actually going to go. I don't think there's any decision that has been made as to whether it's going to McKinley County or San Juan County. We did not put that specific county in there when we sent the language to Legislative Council Services; it was just in Navajo Nation. I don't know how San Juan County got in there; it must have been Council Services. We might even partial veto that county just to make sure the funds can be used in the appropriate place, because on top of this $10 million, there's another $10 million or so already appropriated, and we want to make sure wherever it goes, all that funding can be used at the same facility."
+      "timestamp": "10:58",
+      "text": "Madam Chair, Representative, the plan is to assess where the facility is actually going to go. I don't think there's any decisions that have been made as to whether it's going to McKinley County or San Juan County. We did not put that in there; whenever we put the language to Council Services, it was just in Navajo Nation. I don't know how San Juan County got in there; it must have been Council Services. We might even partial veto that county just to make sure that the funds can be used in the appropriate place, because I think on top of this $10 million, there's another $10 million or so already appropriated. We want to make sure that wherever it goes, all that funding can be used at the same facility."
     },
     {
-      "speaker": "Rep. Patricia Lundstrom",
+      "speaker": "Kelly O'Donnell",
       "timestamp": "12:02",
-      "text": "Madam Chair, Representative, just looking at this in the chart, the language actually says McKinley County, but the county showing up in the chart says San Juan. So that looks to me like an error in the chart that is not in the bill language, but we can search the document for you after this to confirm. The reauthorization went to McKinley County, and I think this $8 million is additional funds; it needs to stay with the same fiscal agent. Does this project come from the Governor's office then?"
+      "text": "Madam Chair, Representative, just looking at this in the chart, the language actually says McKinley County and the county showing up in the chart says San Juan. That looks to me like an error in the chart that is not in the bill language, but we can search the document for you after this to confirm that."
     },
     {
-      "speaker": "Rep. Derrick Lente",
+      "speaker": "Rep. Patty Lundstrom",
+      "timestamp": "12:24",
+      "text": "Madam Chair, the reauthorization went to McKinley County. This $8 million is additional funds, and I think it needs to stay with the same fiscal agent. Thank you, Madam Chair. Is there someone here from the Governor's office then?"
+    },
+    {
+      "speaker": "Rep. Harry Lente",
       "timestamp": "12:43",
-      "text": "Madam Chair, if I may, this is Wesley Billingsley. He works in the Department of Finance and Administration and heads up our Capital Outlay Division."
+      "text": "Madam Chair, if I may, this is Wesley Billingsley. He works in the Department of Finance and Administration and he actually heads up our Capital Outlay division in that department."
     },
     {
-      "speaker": "Rep. Patricia Lundstrom",
+      "speaker": "Rep. Patty Lundstrom",
       "timestamp": "12:53",
-      "text": "Thank you, Madam Chair. It seems he might have information on these initiatives. Can you tell us about item 3730, the purchase of a clinical services building in San Miguel County?"
+      "text": "Okay, thank you, Madam Chair. It seems he might have a lot of the information on these initiatives. So, can you tell us about item 3730, the purchase of a clinical services building in San Miguel County?"
     },
     {
       "speaker": "Wesley Billingsley",
       "timestamp": "13:13",
-      "text": "Madam Chair, Representative, in all transparency, I don't have any more information than what was already shared. All I know is that there is a facility they are trying to purchase in San Miguel County, and I have no idea what else is going to happen with that facility."
+      "text": "Madam Chair, Representative, frankly, I don't have any more information than what was already shared. All I know is that they are trying to purchase a facility in San Miguel County, and I have no idea what else is going to happen with that facility."
     },
     {
-      "speaker": "Rep. Patricia Lundstrom",
-      "timestamp": "13:34",
+      "speaker": "Rep. Patty Lundstrom",
+      "timestamp": "13:26",
       "text": "Madam Chair, do you know the amount of the purchase?"
     },
     {
       "speaker": "Wesley Billingsley",
-      "timestamp": "13:38",
+      "timestamp": "13:34",
       "text": "Madam Chair, Representative, I do not know the amount of the purchase."
     },
     {
       "speaker": "Rep. Rod Montoya",
       "timestamp": "13:41",
-      "text": "Thank you, Madam Chair. If at all possible, I'd love to have that information before we vote on the floor. Instead of us having to call the Governor's office, there's a representative here and it would be great if we can find out the specifics. It could be a facility they are wanting to purchase that needs $25 million instead of $10 million, so that would be very helpful prior to a floor vote. Thank you."
-    },
-    {
-      "speaker": "Vice Chair Rep. Cadena",
-      "timestamp": "14:25",
-      "text": "What is the pleasure of the committee?"
+      "text": "Thank you, Madam Chair. If at all possible, I'd love to have that information before we vote on this on the floor. Instead of us having to call the Governor's office, since there's a representative here, it would be great if we can find out the specifics. It could be that there's a facility they're wanting to purchase that needs $25 million instead of $10 million. That would be very helpful to us prior to a vote on the floor. Thank you."
     },
     {
       "speaker": "Rep. Silva",
-      "timestamp": "14:28",
-      "text": "I move a Do Pass on Senate Finance Committee substitute for Senate Bill 240, as amended."
+      "timestamp": "14:25",
+      "text": "What's the pleasure of the committee? I move a 'do pass' on Senate Finance Committee substitute for Senate Bill 240, as amended."
     },
     {
       "speaker": "Rep. Gallegos",
-      "timestamp": "14:35",
+      "timestamp": "14:31",
       "text": "Second."
     },
     {
       "speaker": "Committee Clerk",
       "timestamp": "14:40",
-      "text": "We'll do a roll call vote on this one. Representative Chandler? Yes. Representative Duncan? Yes. Representative Gallegos? Yes. Representative Harper? No. [Pause] Representative Harper, how would you like to vote? I voted No. Okay. Representative Hernandez? Yes. Representative Lundstrom? Yes. Speaker Martinez? [No response]. Representative Montoya? No. Representative Pettigrew? Yes. Representative Silva? Yes. Representative Terrazas? No. Madam Vice Chair Cadena? Yes. Chairman Lente? Yes."
+      "text": "We have a motion from Representative Silva and a second from Representative Gallegos. We'll do a roll call vote on this one. Representative Chandler? (Yes). Representative Duncan? (Yes, and I'd like to explain my vote). Representative Gallegos? (Yes). Representative Herrera? (No). Representative Hernandez? (Yes, and I'd like to explain my vote). Representative Lundstrom? (Yes). Speaker Martinez? (Excused). Representative Montoya? (No, I've already explained my vote). Representative Pato? (Yes). Representative Silva? (Yes). Representative Terrazas? (No, and I'd like to explain). Madam Vice Chair Cadena? (Yes). Chair Lente? (Yes)."
     },
     {
       "speaker": "Committee Clerk",
       "timestamp": "16:07",
-      "text": "Madam Chair, the tally is nine Yes, three No."
+      "text": "Madam Chair, the tally is nine yes, three no."
     },
     {
-      "speaker": "Vice Chair Rep. Cadena",
+      "speaker": "Chairwoman Rep. Christine Chandler",
       "timestamp": "16:14",
-      "text": "Thank you. We will now go to members for a quick explanation of your vote. First we had Representative Hernandez, then Representative Montoya, then Representative Terrazas."
+      "text": "Thank you. We will now go to members for a quick explanation of your vote. We will go in alphabetical order: Representative Hernandez, then Montoya, then Terrazas."
     },
     {
       "speaker": "Rep. Joshua Hernandez",
       "timestamp": "16:27",
-      "text": "Thank you, Madam Chair. I have no problem voting Yes on this, as did Representative Montoya, though this is probably the one bill that nobody wants to vote No on until we have confirmation of what that facility is going to be. Thank you."
+      "text": "Thank you, Madam Chair. I have no problem voting yes on this, as Representative Montoya said, this is probably the one bill that nobody wants to vote no on until we have some confirmation of what that project is going to be. Thank you."
     },
     {
       "speaker": "Rep. Rod Montoya",
-      "timestamp": "16:43",
-      "text": "Thank you, Madam Chair. I voted Yes—wait, I voted No—to get it out to the floor and I'm just waiting to hear what the Governor's office has to say as well."
+      "timestamp": "16:40",
+      "text": "Thank you, Madam Chair. I voted no to get it out to the floor, and I'm just waiting to hear what the Governor's office has to say as well. Thank you."
     },
     {
       "speaker": "Rep. Luis Terrazas",
-      "timestamp": "16:51",
-      "text": "Thank you, Madam Chair. Since I'm last, I'll explain. I know it's going to pass, but I wanted to also just get some information for the floor. Thank you, Madam Chair."
+      "timestamp": "16:52",
+      "text": "Madam Chair, since I'm last, I know it's going to pass, but I wanted to also just get some information for the floor. Thank you, Madam Chair."
     },
     {
-      "speaker": "Vice Chair Rep. Cadena",
-      "timestamp": "17:01",
-      "text": "Thank you, Mr. Chair. You have a Do Pass on Senate Finance Committee substitute for Senate Bill 240. Anything else before we adjourn?"
-    },
-    {
-      "speaker": "Rep. Derrick Lente",
-      "timestamp": "17:09",
-      "text": "Well, just quickly Madam Chair and committee members, I just want to thank everybody here for a great session that we've had. Thank you for the bipartisan support and the discussion, the honesty, clarity, and transparency that we've shared in this committee, and the friendship that hopefully we've all built over the past two years. Hopefully we'll see you here again next year. We also want to recognize and thank the staff for all you do for us; it can't be easy, especially for the analysts—whether minority, majority, or general analysts. We really appreciate all you do to help us understand these tax policies we're trying to implement. So again, everybody thank you so much, I hope you have a great year, and we'll see you next time."
-    },
-    {
-      "speaker": "Vice Chair Rep. Cadena",
-      "timestamp": "17:52",
-      "text": "Thank you, Mr. Chair. We are adjourned."
+      "speaker": "Rep. Harry Lente",
+      "timestamp": "17:04",
+      "text": "Thank you, Mr. Chair. You have a 'do pass' on the Senate Finance Committee substitute for Senate Bill 240. Anything else before we adjourn? Well, just quickly, Madam Chair and committee members, I just want to thank you guys and everybody here for a great session. Thank you for the bipartisan support, the discussion, the honesty, and the transparency that we've shared in this committee, and the friendship that hopefully we've all built over the past two years. Hopefully we'll see you here again next year. We also want to recognize and thank the staff for all they do for us; it can't be easy, especially the analysts, whether minority, majority, or general analysts. We really appreciate all you do to help us understand these tax policies we're trying to implement. Thank you so much, and I hope you have a great year. We'll see you next time."
     }
   ],
-  "full_text": "[Committee Clerk]: We are going to start this afternoon. We will be hearing the Senate Finance Committee substitute for Senate Bill 240, and we'll do roll call now. Representative Chandler? Here. Representative Duncan? Here. Representative Gallegos? Here. Representative Harper? Here. Representative Hernandez? Here. Representative Lundstrom? Here. Speaker Martinez? [No response]. Representative Montoya? Here. Representative Pettigrew? Here. Representative Silva? Here. Representative Terrazas? Here. Madam Vice Chair Cadena? Here. Chairman Lente? I'm here.\n\n[Vice Chair Rep. Cadena]: Mr. Chair, when you're ready, we'll hear the committee staff presentation on SB 240.\n\n[Rep. Derrick Lente]: Great, thank you Madam Chairwoman. Thank you, committee, for meeting this afternoon on short notice. The Senate Finance Committee substitute for Senate Bill 240, as amended, appropriates $1.3 billion to capital projects statewide. Those projects include $525 million in this bill appropriated to projects prioritized by House and Senate members and the Governor. The remainder of the dollars are appropriated to state agency, judicial, and higher education projects. Some of the state agency projects are for the benefit of local entities. The appropriations in the bill include $445 million from the general fund, $444 million in severance tax bonds, and $280 million in supplemental severance tax bonds. Just for our reference, those amendments that I made reference to earlier were on the Senate floor and it took care of a couple of technical errors. One was a drafting error that sent appropriations to the wrong agency, or in one case the wrong project; that was one of the amendments done on the Senate floor. There was another amendment that ensures the funds for these projects are appropriated as the sponsors intended and do not delay the use of funds by the grantees. Those are the Senate amendments from their floor. Madam Chairwoman, before you, you have a list of your projects and those charts broken down by counties, so hopefully that helps you reference those projects in your counties. With that, Madam Chairwoman, we will stand for any questions.\n\n[Vice Chair Rep. Cadena]: Thank you. We will go to public comments. For those joining us online, please raise your hand if you'd like to speak in support or opposition to the Senate Finance Committee substitute for Senate Bill 240. Seeing no hands raised, we'll go to those joining us in person. Please line up if you'd like to speak in support or opposition to Senate Bill 240. Seeing no audience members standing up, we will now go to the committee for discussion. Representative Duncan?\n\n[Rep. Jim Duncan]: Thank you, Madam Chair. Mr. Chair, when we do capital outlay projects for, let's say, a backhoe as opposed to maybe a water project, are we spending the funds we actually have now on those smaller ticket items, and then on the severance bonds, are we putting those toward the projects that will go out 20 years? Is there a separation there?\n\n[Rep. Derrick Lente]: Madam Chairwoman, I would like to also introduce my expert—we should all know her by this point—Kelly Farrar as well. Kelly, would you be able to field that question for us?\n\n[Kelly Farrar]: Madam Chair, Representative, we have had more ability to do that recently. You're asking about trying to pay cash for small assets and equipment and to reserve our debt financing for larger projects that have a 10-year or more lifespan. I would say that we have done that in this bill because the bonding capacity was really reserved for the statewide side of the bill, and the general fund funded the discretionary projects which tend to involve more of that equipment. Essentially, our general fund surpluses have allowed us to do that to a greater extent recently than in the past, and that includes this year.\n\n[Rep. Jim Duncan]: Okay, thank you Madam Chair and thank you for that. One last question. I think there's a lot of good things in here, projects that just need to be done and finished up for our communities. One question for you, Mr. Chairman: are you aware of the funds on item 3730, the purchase of the hospital in Las Vegas? Will that be used for abortions? Are you aware?\n\n[Rep. Derrick Lente]: Madam Chairwoman and Representative, as we refer to this list, I'll be in full transparency to this body that in combing through these types of things, I look at things for what they are. When I see something—like last year, there was an issue or concern that you had brought to me, and you asked me if I saw anything regarding women's reproductive health to let you know. I was looking at this, and while it's not explicitly mentioned here in this bill, there is $15 million in this budget from the Governor's share to purchase a hospital in San Miguel County as I understand it. The reference to it is vague enough where it doesn't make any mention of reproductive health, but I thought it nonetheless important to at least share that I saw that. It is what it is in terms of what it says in the bill, but in regards to your question, no sir, I cannot confirm that it is for that purpose.\n\n[Rep. Jim Duncan]: Thank you, Mr. Chairman, and thank you for being so honest with me last year and again with this. I'm going to assume that when the Governor came out and said she wanted to put a facility up north, this may be it. Thank you for that information, Mr. Chair. Thank you, Madam Chair, that's the only question I have.\n\n[Rep. Rod Montoya]: Thank you, Madam Chair. Mr. Chairman, on that, we specifically gave—I think the Governor put $10 million last year towards a facility in northern New Mexico. Would this be $15 million on top of that $10 million? Because one could read this as the previous one was specifically for an abortion facility, and this says 'clinical services building,' suggesting this could be an addition. I'm just curious because there didn't have to be a reauthorization for that, and I don't know that the money was taken back; there is still time to spend that money. The way I'm reading this is $10 million last year and another $15 million this year. It would be nice to know before we get to the floor how big of a facility that's going to be. $10 million seemed like an adequate amount for what we knew last year. Is there any possibility of trying to get a little bit more information before we move on to the floor?\n\n[Rep. Derrick Lente]: Madam Chairwoman, Representative, at this point I cannot suggest that this is in any way, shape, or form an addition to or expansion on the work they did last year with the $10 million. The $15 million here represents the Governor's share, and again I would invite those that are interested or inquisitive about this to call the Governor's office themselves. It's the job of the LFC and the LSC to prepare these bills and create the best data, but I think it's for the rest of us and your analysts to thereafter get the information that you need. I couldn't, on the Governor's behalf, represent what the intent is for these dollars.\n\n[Rep. Rod Montoya]: Thank you, Madam Chair. Mr. Chairman, I truly hope this was maybe an addition to include an overall facility, and I will try and reach out to the Governor's office before we vote on the floor. But as it is here in committee today, I'm going to have to vote no. I love everything else; this is the one bill that gets passed every year that I think all of us like because this is where we have direct input on projects in our community. I'm going to vote no now, and I hope that in conversation with the Governor's office, I find this is not additional money for that purpose. If that's the case, I would love to start being able to vote for capital outlay bills again, but I just wanted to make that clear. Thank you.\n\n[Rep. Patricia Lundstrom]: Thank you, Madam Chair. I'm looking at the bigger document, page 57, at the very bottom: Navajo Code Talker Museum. It says it's in San Juan County; that should be McKinley County.\n\n[Rep. Derrick Lente]: Madam Chair, Representative, I'm going to ask Wesley Billingsley if he could answer that question. I believe this is one of the Governor's projects that I'm not privy to the details of, but he may know.\n\n[Wesley Billingsley]: Madam Chair, Representative, the plan is to assess where the facility is actually going to go. I don't think there's any decision that has been made as to whether it's going to McKinley County or San Juan County. We did not put that specific county in there when we sent the language to Legislative Council Services; it was just in Navajo Nation. I don't know how San Juan County got in there; it must have been Council Services. We might even partial veto that county just to make sure the funds can be used in the appropriate place, because on top of this $10 million, there's another $10 million or so already appropriated, and we want to make sure wherever it goes, all that funding can be used at the same facility.\n\n[Rep. Patricia Lundstrom]: Madam Chair, Representative, just looking at this in the chart, the language actually says McKinley County, but the county showing up in the chart says San Juan. So that looks to me like an error in the chart that is not in the bill language, but we can search the document for you after this to confirm. The reauthorization went to McKinley County, and I think this $8 million is additional funds; it needs to stay with the same fiscal agent. Does this project come from the Governor's office then?\n\n[Rep. Derrick Lente]: Madam Chair, if I may, this is Wesley Billingsley. He works in the Department of Finance and Administration and heads up our Capital Outlay Division.\n\n[Rep. Patricia Lundstrom]: Thank you, Madam Chair. It seems he might have information on these initiatives. Can you tell us about item 3730, the purchase of a clinical services building in San Miguel County?\n\n[Wesley Billingsley]: Madam Chair, Representative, in all transparency, I don't have any more information than what was already shared. All I know is that there is a facility they are trying to purchase in San Miguel County, and I have no idea what else is going to happen with that facility.\n\n[Rep. Patricia Lundstrom]: Madam Chair, do you know the amount of the purchase?\n\n[Wesley Billingsley]: Madam Chair, Representative, I do not know the amount of the purchase.\n\n[Rep. Rod Montoya]: Thank you, Madam Chair. If at all possible, I'd love to have that information before we vote on the floor. Instead of us having to call the Governor's office, there's a representative here and it would be great if we can find out the specifics. It could be a facility they are wanting to purchase that needs $25 million instead of $10 million, so that would be very helpful prior to a floor vote. Thank you.\n\n[Vice Chair Rep. Cadena]: What is the pleasure of the committee?\n\n[Rep. Silva]: I move a Do Pass on Senate Finance Committee substitute for Senate Bill 240, as amended.\n\n[Rep. Gallegos]: Second.\n\n[Committee Clerk]: We'll do a roll call vote on this one. Representative Chandler? Yes. Representative Duncan? Yes. Representative Gallegos? Yes. Representative Harper? No. [Pause] Representative Harper, how would you like to vote? I voted No. Okay. Representative Hernandez? Yes. Representative Lundstrom? Yes. Speaker Martinez? [No response]. Representative Montoya? No. Representative Pettigrew? Yes. Representative Silva? Yes. Representative Terrazas? No. Madam Vice Chair Cadena? Yes. Chairman Lente? Yes.\n\n[Committee Clerk]: Madam Chair, the tally is nine Yes, three No.\n\n[Vice Chair Rep. Cadena]: Thank you. We will now go to members for a quick explanation of your vote. First we had Representative Hernandez, then Representative Montoya, then Representative Terrazas.\n\n[Rep. Joshua Hernandez]: Thank you, Madam Chair. I have no problem voting Yes on this, as did Representative Montoya, though this is probably the one bill that nobody wants to vote No on until we have confirmation of what that facility is going to be. Thank you.\n\n[Rep. Rod Montoya]: Thank you, Madam Chair. I voted Yes—wait, I voted No—to get it out to the floor and I'm just waiting to hear what the Governor's office has to say as well.\n\n[Rep. Luis Terrazas]: Thank you, Madam Chair. Since I'm last, I'll explain. I know it's going to pass, but I wanted to also just get some information for the floor. Thank you, Madam Chair.\n\n[Vice Chair Rep. Cadena]: Thank you, Mr. Chair. You have a Do Pass on Senate Finance Committee substitute for Senate Bill 240. Anything else before we adjourn?\n\n[Rep. Derrick Lente]: Well, just quickly Madam Chair and committee members, I just want to thank everybody here for a great session that we've had. Thank you for the bipartisan support and the discussion, the honesty, clarity, and transparency that we've shared in this committee, and the friendship that hopefully we've all built over the past two years. Hopefully we'll see you here again next year. We also want to recognize and thank the staff for all you do for us; it can't be easy, especially for the analysts—whether minority, majority, or general analysts. We really appreciate all you do to help us understand these tax policies we're trying to implement. So again, everybody thank you so much, I hope you have a great year, and we'll see you next time.\n\n[Vice Chair Rep. Cadena]: Thank you, Mr. Chair. We are adjourned.",
+  "full_text": "[Chairwoman Rep. Christine Chandler]: We are going to start this afternoon. We will be hearing Senate Bill 240, and we'll do roll call now.\n\n[Committee Clerk]: Representative Chandler? (Here). Representative Duncan? (Here). Representative Gallegos? (Here). Representative Herrera? (Here). Representative Hernandez? (Here). Representative Lundstrom? (Here). Speaker Martinez? (Excused). Representative Montoya? (Here). Representative Pato? (Here). Representative Silva? (Here). Representative Terrazas? (Here). Madam Vice Chair Cadena? (Here). Chairman Lente?\n\n[Rep. Harry Lente]: I'm here, Madam Chair. When you're ready, we have committee staff here for SB 240. Great, thank you, Madam Chairwoman. Thank you, committee, for meeting this afternoon on short notice. The Senate Finance Committee substitute for Senate Bill 240, as amended, appropriates $1.3 billion to capital projects statewide. Those projects include $525 million in this bill appropriated to projects prioritized by House and Senate members and the Governor. The remainder of the dollars are appropriated to state agency, judicial, and higher education projects. Some of the state agency projects are for the benefit of local entities. The appropriations in the bill include $445 million from the General Fund, $444 million in severance tax bonds, and $280 million in supplemental severance tax bonds. Just for our reference, those amendments that I made reference to earlier were on the Senate floor and it took care of a couple of technical errors. One was a drafting error that sent appropriations to the wrong agency or, in one case, the wrong project. That was one of the amendments that was done on the Senate floor. There was another amendment that ensures the funds for these projects are appropriated as the sponsors intended and do not delay the use of funds by the grantees. Those are the Senate amendments from their floor. Madam Chairwoman, before you, you have a list of your projects and those charts broken down by counties. Hopefully that helps you refer to and reference those projects in your counties. With that, Madam Chairwoman, we will stand for any questions.\n\n[Chairwoman Rep. Christine Chandler]: Thank you. We will go to public comments. For those joining us online, please raise your hand if you'd like to speak in support or opposition to the Senate Finance Committee substitute for Senate Bill 240. Seeing no hands raised, we'll go to those joining us in person. Please line up if you'd like to speak in support or opposition to Senate Bill 240. Seeing no audience members standing up, we will now go to committee for discussion. Representative Duncan.\n\n[Rep. Meredith Duncan]: Thank you, Madam Chair. Mr. Chair, when we do capital projects for, let's say, a backhoe, as opposed to maybe a water project, are we spending the funds we actually have now on those smaller ticket items, and then on the severance bonds, are we putting those toward the projects that will go out 20 years? Is there a separation there?\n\n[Rep. Harry Lente]: Madam Chairwoman, I would like to also introduce my expert—we should all know her by this point—Kelly O'Donnell. Kelly, would you be able to field that question for us?\n\n[Kelly O'Donnell]: Madam Chair, Representative, we have had more ability to do that recently. You're asking about trying to pay cash for small assets and equipment and to reserve our debt financing for larger projects that have a 10-year or more lifespan. I would say that we have done that in this bill because the bonding capacity was really reserved for the statewide side of the bill, and the General Fund funded the discretionary projects, which tend to involve more of that equipment. Essentially, our General Fund surpluses have allowed us to do that to a greater extent recently than in the past, and that includes this year.\n\n[Rep. Meredith Duncan]: Okay, thank you, Madam Chair, and thank you for that. One last question. I think there's a lot of good things in here—projects that just need to be done and finished up for our communities. One question for you, Mr. Chairman: are you aware of the funds on item 3730 regarding the purchase of the hospital in Las Vegas? Will that be used for abortion? Are you aware?\n\n[Rep. Harry Lente]: Madam Chairwoman and Representative, as we refer to this list, I'll be in full transparency to this body that in coming through these types of things, I look at things for what they are. When I see something like last year, where there was an issue or a concern that you had brought to me regarding women's reproductive health, I looked at this. While it's not explicitly mentioned here in this bill, there is $15 million in this budget from the Governor's share to purchase a hospital in San Miguel County, as I understand it. The reference to it is vague enough where it doesn't make any mention to reproductive health, but I thought it nonetheless important to at least share that I saw that. It is what it is in terms of what it says in the bill, but in regards to your question, no sir, I cannot confirm that it is for an abortion facility.\n\n[Rep. Meredith Duncan]: Thank you, and thank you for being so honest with me last year and again with this. I'm going to assume that when the Governor came out and said she wanted to put a facility up north, I'm going to assume this may be it. Thank you for that information, Mr. Chair. Thank you, Madam Chair. That's the only question I have.\n\n[Rep. Rod Montoya]: Thank you, Madam Chair. So, Mr. Chairman, on that, we specifically gave—I think the Governor put $10 million last year towards a facility in northern New Mexico. Would this be $15 million on top of that $10 million? Because one could read this as the last one being specifically for an abortion facility, while this says 'clinical services building,' which could be an addition to that. I'm just curious because there didn't have to be a reauthorization for that, and I don't know if that money was taken back; there is time to spend that money. The way I'm reading this is $10 million last year and another $15 million this year. It would be nice to know before we get to the floor how big of a facility that's going to be. $10 million seemed like an adequate amount for what we knew last year. I'm not sure this is the same thing. Is there any possibility of trying to get a little bit more information before we move to the floor?\n\n[Rep. Harry Lente]: Madam Chairwoman, Representative, at this point, I cannot suggest that this is in any way, shape, or form an addition to or an expansion on the work they did last year with the $10 million. The $15 million here represents what it does, and again, I would invite those that are interested or inquisitive about this to call the Governor's office themselves. It's the job of the LFC and the LCS to prepare these bills and create the best data with appropriate numbers. I think it's for the rest of us and your analysts to then get the information that you need. I couldn't, on the Governor's behalf, represent in any shape or form what the intent is for these dollars.\n\n[Rep. Rod Montoya]: Thank you, Madam Chair. Mr. Chairman, I truly hope this was maybe an addition to include an overall facility, and I will try and reach out to the Governor's office before we vote on the floor. But as it is here in committee today, I'm going to have to vote no. I love everything else—I love what we're able to do in this. This is the one bill that gets passed every year that I think all of us like because this is where we have direct input on the projects in our community. I'm going to vote no now, and I hope that in conversation with the Governor's office, I find this is not additional money for that purpose but for a different purpose. If that's the case, I would love to start being able to vote for capital outlay bills again, but I just wanted to make that clear. Thank you.\n\n[Rep. Patty Lundstrom]: Thank you, Madam Chair. I'm looking at the bigger document, page 57, very bottom: Navajo Code Talker Museum. It says it's in San Juan County; that should be McKinley County.\n\n[Rep. Harry Lente]: Madam Chair, Representative, I'm going to ask Wesley Billingsley if he could answer that question. I believe these are the Governor's projects that I'm not privy to the details of, but he may know.\n\n[Wesley Billingsley]: Madam Chair, Representative, the plan is to assess where the facility is actually going to go. I don't think there's any decisions that have been made as to whether it's going to McKinley County or San Juan County. We did not put that in there; whenever we put the language to Council Services, it was just in Navajo Nation. I don't know how San Juan County got in there; it must have been Council Services. We might even partial veto that county just to make sure that the funds can be used in the appropriate place, because I think on top of this $10 million, there's another $10 million or so already appropriated. We want to make sure that wherever it goes, all that funding can be used at the same facility.\n\n[Kelly O'Donnell]: Madam Chair, Representative, just looking at this in the chart, the language actually says McKinley County and the county showing up in the chart says San Juan. That looks to me like an error in the chart that is not in the bill language, but we can search the document for you after this to confirm that.\n\n[Rep. Patty Lundstrom]: Madam Chair, the reauthorization went to McKinley County. This $8 million is additional funds, and I think it needs to stay with the same fiscal agent. Thank you, Madam Chair. Is there someone here from the Governor's office then?\n\n[Rep. Harry Lente]: Madam Chair, if I may, this is Wesley Billingsley. He works in the Department of Finance and Administration and he actually heads up our Capital Outlay division in that department.\n\n[Rep. Patty Lundstrom]: Okay, thank you, Madam Chair. It seems he might have a lot of the information on these initiatives. So, can you tell us about item 3730, the purchase of a clinical services building in San Miguel County?\n\n[Wesley Billingsley]: Madam Chair, Representative, frankly, I don't have any more information than what was already shared. All I know is that they are trying to purchase a facility in San Miguel County, and I have no idea what else is going to happen with that facility.\n\n[Rep. Patty Lundstrom]: Madam Chair, do you know the amount of the purchase?\n\n[Wesley Billingsley]: Madam Chair, Representative, I do not know the amount of the purchase.\n\n[Rep. Rod Montoya]: Thank you, Madam Chair. If at all possible, I'd love to have that information before we vote on this on the floor. Instead of us having to call the Governor's office, since there's a representative here, it would be great if we can find out the specifics. It could be that there's a facility they're wanting to purchase that needs $25 million instead of $10 million. That would be very helpful to us prior to a vote on the floor. Thank you.\n\n[Rep. Silva]: What's the pleasure of the committee? I move a 'do pass' on Senate Finance Committee substitute for Senate Bill 240, as amended.\n\n[Rep. Gallegos]: Second.\n\n[Committee Clerk]: We have a motion from Representative Silva and a second from Representative Gallegos. We'll do a roll call vote on this one. Representative Chandler? (Yes). Representative Duncan? (Yes, and I'd like to explain my vote). Representative Gallegos? (Yes). Representative Herrera? (No). Representative Hernandez? (Yes, and I'd like to explain my vote). Representative Lundstrom? (Yes). Speaker Martinez? (Excused). Representative Montoya? (No, I've already explained my vote). Representative Pato? (Yes). Representative Silva? (Yes). Representative Terrazas? (No, and I'd like to explain). Madam Vice Chair Cadena? (Yes). Chair Lente? (Yes).\n\n[Committee Clerk]: Madam Chair, the tally is nine yes, three no.\n\n[Chairwoman Rep. Christine Chandler]: Thank you. We will now go to members for a quick explanation of your vote. We will go in alphabetical order: Representative Hernandez, then Montoya, then Terrazas.\n\n[Rep. Joshua Hernandez]: Thank you, Madam Chair. I have no problem voting yes on this, as Representative Montoya said, this is probably the one bill that nobody wants to vote no on until we have some confirmation of what that project is going to be. Thank you.\n\n[Rep. Rod Montoya]: Thank you, Madam Chair. I voted no to get it out to the floor, and I'm just waiting to hear what the Governor's office has to say as well. Thank you.\n\n[Rep. Luis Terrazas]: Madam Chair, since I'm last, I know it's going to pass, but I wanted to also just get some information for the floor. Thank you, Madam Chair.\n\n[Rep. Harry Lente]: Thank you, Mr. Chair. You have a 'do pass' on the Senate Finance Committee substitute for Senate Bill 240. Anything else before we adjourn? Well, just quickly, Madam Chair and committee members, I just want to thank you guys and everybody here for a great session. Thank you for the bipartisan support, the discussion, the honesty, and the transparency that we've shared in this committee, and the friendship that hopefully we've all built over the past two years. Hopefully we'll see you here again next year. We also want to recognize and thank the staff for all they do for us; it can't be easy, especially the analysts, whether minority, majority, or general analysts. We really appreciate all you do to help us understand these tax policies we're trying to implement. Thank you so much, and I hope you have a great year. We'll see you next time.",
   "raw_segments": [
     {
       "start": 0.0,

@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NM House Proceedings</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #faf8f4;
+  --bg-card: #ffffff;
+  --bg-card-hover: #fefdfb;
+  --text: #1a1a1a;
+  --text-secondary: #5a5a5a;
+  --text-muted: #8a8a8a;
+  --border: #e2ddd5;
+  --border-light: #eee9e1;
+  --accent: #b4432a;
+  --accent-light: #f5ebe7;
+  --pass: #2d7a3a;
+  --pass-bg: #e8f5ea;
+  --fail: #a63d2f;
+  --fail-bg: #fbe9e7;
+  --tabled: #7a6c3a;
+  --tabled-bg: #f5f0e0;
+  --timeline: #cfc8bc;
+  --unknown-speaker: #9a9a9a;
+  --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+  --shadow-hover: 0 2px 8px rgba(0,0,0,0.06), 0 8px 24px rgba(0,0,0,0.05);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Header ─────────────────────────────────────────── */
+header {
+  background: var(--text);
+  color: var(--bg);
+  padding: 2rem 2rem 1.8rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header .inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+header h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+header .subtitle {
+  font-size: 0.82rem;
+  color: #aaa;
+  margin-top: 0.25rem;
+  font-weight: 400;
+}
+header .stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.9rem;
+  font-size: 0.78rem;
+  color: #888;
+  font-family: 'IBM Plex Mono', monospace;
+}
+header .stats span {
+  color: #ccc;
+}
+
+/* ─── Filters ────────────────────────────────────────── */
+.filters {
+  max-width: 900px;
+  margin: 1.5rem auto 0;
+  padding: 0 2rem;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.filter-btn {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.filter-btn:hover { border-color: var(--text-muted); }
+.filter-btn.active {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
+/* ─── Timeline ───────────────────────────────────────── */
+.timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem 4rem;
+}
+
+.date-group { margin-top: 2rem; }
+.date-header {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-light);
+  margin-bottom: 0.75rem;
+  position: sticky;
+  top: 90px;
+  background: var(--bg);
+  z-index: 10;
+}
+
+/* ─── Meeting Card ───────────────────────────────────── */
+.meeting-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 1.1rem 1.3rem;
+  margin-bottom: 0.6rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: var(--shadow);
+}
+.meeting-card:hover {
+  box-shadow: var(--shadow-hover);
+  border-color: var(--border);
+  background: var(--bg-card-hover);
+}
+.meeting-card.expanded {
+  box-shadow: var(--shadow-hover);
+  border-color: var(--accent);
+  border-left: 3px solid var(--accent);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.card-top-left { flex: 1; }
+
+.committee-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.3;
+}
+.card-time {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+.card-location {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.card-summary {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  margin-top: 0.6rem;
+  line-height: 1.55;
+}
+
+/* ─── Bills + Votes ──────────────────────────────────── */
+.card-bills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+.bill-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  background: #f0ece6;
+  color: var(--text-secondary);
+}
+.bill-tag .vote-result {
+  font-size: 0.65rem;
+  padding: 0.05rem 0.3rem;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.vote-pass { background: var(--pass-bg); color: var(--pass); }
+.vote-fail { background: var(--fail-bg); color: var(--fail); }
+.vote-tabled { background: var(--tabled-bg); color: var(--tabled); }
+
+/* ─── Speakers badge ─────────────────────────────────── */
+.card-speakers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.55rem;
+}
+.speaker-chip {
+  font-size: 0.68rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  background: #f4f1ec;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+.speaker-chip.chair {
+  background: var(--accent-light);
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* ─── Expand arrow ───────────────────────────────────── */
+.expand-indicator {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  padding-top: 0.3rem;
+  transition: transform 0.2s;
+}
+.meeting-card.expanded .expand-indicator { transform: rotate(180deg); }
+
+/* ─── Expanded detail ────────────────────────────────── */
+.card-detail {
+  display: none;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-light);
+}
+.meeting-card.expanded .card-detail { display: block; }
+
+.detail-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+.detail-actions a {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  transition: all 0.15s;
+}
+.detail-actions a:hover {
+  background: var(--accent);
+  color: white;
+}
+
+/* ─── Transcript ─────────────────────────────────────── */
+.transcript {
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+.transcript::-webkit-scrollbar { width: 4px; }
+.transcript::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+.turn {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--border-light);
+}
+.turn-speaker {
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.turn-timestamp {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+.turn-text {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+.turn.unknown-speaker {
+  border-left-color: #ddd;
+}
+.turn.unknown-speaker .turn-speaker { color: var(--unknown-speaker); }
+.turn.unknown-speaker .turn-text { color: #aaa; }
+
+/* ─── Search ─────────────────────────────────────────── */
+.search-wrap {
+  max-width: 900px;
+  margin: 1.2rem auto 0;
+  padding: 0 2rem;
+}
+.search-input {
+  width: 100%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.88rem;
+  padding: 0.65rem 1rem 0.65rem 2.4rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%238a8a8a' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E") 0.8rem center no-repeat;
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.search-input::placeholder { color: var(--text-muted); }
+.search-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(180, 67, 42, 0.08);
+}
+.search-results-info {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.4rem;
+  font-family: 'IBM Plex Mono', monospace;
+  display: none;
+}
+.search-results-info.visible { display: block; }
+
+.highlight {
+  background: #fce8a5;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* ─── Loading / Empty ────────────────────────────────── */
+.loading, .empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+.loading::after {
+  content: '';
+  display: block;
+  width: 24px; height: 24px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  margin: 1rem auto 0;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.empty-state code {
+  display: block;
+  margin-top: 1rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  background: #f0ece6;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  text-align: left;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ─── Responsive ─────────────────────────────────────── */
+@media (max-width: 640px) {
+  header { padding: 1.2rem 1rem; }
+  .search-wrap, .filters, .timeline { padding-left: 1rem; padding-right: 1rem; }
+  .meeting-card { padding: 0.9rem 1rem; }
+  .card-top { flex-direction: column; gap: 0; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <h1>New Mexico House Proceedings</h1>
+    <div class="subtitle">2026 Regular Session — January 20 to February 19</div>
+    <div class="stats" id="stats"></div>
+    <div class="stats" id="lastUpdated" style="margin-top: 0.3rem;"></div>
+  </div>
+</header>
+
+<div class="search-wrap">
+  <input type="text" class="search-input" id="searchInput" placeholder="Search bills, speakers, topics, anything…" autocomplete="off">
+  <div class="search-results-info" id="searchInfo"></div>
+</div>
+<div class="filters" id="filters"></div>
+<div class="timeline" id="timeline">
+  <div class="loading">Loading transcripts…</div>
+</div>
+
+<script>
+// ─── Speaker Color Palette ──────────────────────────────
+const SPEAKER_COLORS = [
+  '#b4432a','#2d6a8f','#6b4c9a','#2d7a3a','#c27d2b',
+  '#8b2252','#3a7a7a','#5c6d1f','#9a4e2d','#4a5d8f',
+  '#7a3b5c','#3d7a55','#8a6b2e','#5a3d8f','#2d6b5a',
+  '#8f5a3a','#4a7a3d','#6b3a7a','#3a6b8f','#7a5a2d',
+];
+
+function getSpeakerColor(name, colorMap) {
+  if (!name) return 'var(--unknown-speaker)';
+  const lower = name.toLowerCase();
+  if (lower.includes('unknown') || lower === 'unknown speaker') return 'var(--unknown-speaker)';
+  if (lower.includes('clerk') || lower.includes('staff')) return '#777';
+  if (!colorMap[name]) {
+    const idx = Object.keys(colorMap).length % SPEAKER_COLORS.length;
+    colorMap[name] = SPEAKER_COLORS[idx];
+  }
+  return colorMap[name];
+}
+
+function isUnknown(name) {
+  if (!name) return true;
+  const l = name.toLowerCase();
+  return l.includes('unknown');
+}
+
+// ─── Data Loading ───────────────────────────────────────
+// Tries: same directory, transcripts/ subdirectory
+async function loadIndex() {
+  for (const base of ['./', './transcripts/']) {
+    try {
+      const r = await fetch(base + 'index.json');
+      if (r.ok) { window.__base = base; return await r.json(); }
+    } catch(e) {}
+  }
+  // No index — try loading all JSON files by scanning directory
+  // Fallback: just show instructions
+  return null;
+}
+
+async function loadTranscript(filename) {
+  try {
+    const r = await fetch((window.__base || './') + filename);
+    if (r.ok) return await r.json();
+  } catch(e) {}
+  return null;
+}
+
+// ─── Rendering ──────────────────────────────────────────
+function formatDate(dateStr) {
+  if (!dateStr) return '';
+  try {
+    const d = new Date(dateStr + 'T12:00:00');
+    return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+  } catch(e) { return dateStr; }
+}
+
+function formatDuration(seconds) {
+  if (!seconds) return '';
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  if (h > 0) return `${h}h ${m}m`;
+  return `${m} min`;
+}
+
+function getVoteClass(result) {
+  if (!result) return '';
+  const r = result.toLowerCase();
+  if (r.includes('pass') || r.includes('unanimous')) return 'vote-pass';
+  if (r.includes('fail') || r.includes('tabled')) return 'vote-fail';
+  return 'vote-tabled';
+}
+
+function getCommitteeName(entry) {
+  if (entry.committee) return entry.committee;
+  // Parse from title
+  const title = entry.title || '';
+  const first = title.split('\n')[0];
+  return first.replace(/\(.*?\)/g, '').replace('House - ', 'House ').trim();
+}
+
+function renderCard(entry, idx) {
+  const committee = getCommitteeName(entry);
+  const time = [entry.start_time, entry.end_time].filter(Boolean).join(' – ');
+  const duration = formatDuration(entry.duration_seconds);
+  const location = entry.location || '';
+  const summary = entry.summary || '';
+  const bills = entry.bills_discussed || [];
+  const votes = entry.votes || [];
+  const speakers = entry.speaker_map || [];
+  const sourceUrl = entry.source_url || '';
+
+  // Match votes to bills
+  const voteMap = {};
+  votes.forEach(v => { voteMap[v.bill] = v; });
+
+  let billsHtml = '';
+  if (bills.length) {
+    billsHtml = '<div class="card-bills">' + bills.map(b => {
+      const bill = typeof b === 'string' ? b : b.bill;
+      const title = typeof b === 'object' ? (b.title || '') : '';
+      const vote = voteMap[bill];
+      let voteHtml = '';
+      if (vote) {
+        voteHtml = `<span class="vote-result ${getVoteClass(vote.result)}">${vote.result} ${vote.vote || ''}</span>`;
+      }
+      const billLabel = searchQuery ? highlightText(bill, searchQuery) : bill;
+      return `<span class="bill-tag" title="${title}">${billLabel} ${voteHtml}</span>`;
+    }).join('') + '</div>';
+  }
+
+  const displaySummary = searchQuery ? highlightText(summary, searchQuery) : summary;
+  const displayCommittee = searchQuery ? highlightText(committee, searchQuery) : committee;
+
+  let speakersHtml = '';
+  if (speakers.length) {
+    const chair = speakers.find(s => s.role && s.role.toLowerCase().includes('chair'));
+    const others = speakers.filter(s => s !== chair).slice(0, 6);
+    const parts = [];
+    if (chair) parts.push(`<span class="speaker-chip chair">${searchQuery ? highlightText(chair.name, searchQuery) : chair.name}</span>`);
+    others.forEach(s => parts.push(`<span class="speaker-chip">${searchQuery ? highlightText(s.name, searchQuery) : s.name}</span>`));
+    if (speakers.length > 7) parts.push(`<span class="speaker-chip">+${speakers.length - 7} more</span>`);
+    speakersHtml = '<div class="card-speakers">' + parts.join('') + '</div>';
+  }
+
+  return `
+    <div class="meeting-card" data-idx="${idx}" data-file="${entry.file || ''}" onclick="toggleCard(this)">
+      <div class="card-top">
+        <div class="card-top-left">
+          <div class="committee-name">${displayCommittee}</div>
+          <div class="card-time">${[time, duration, location].filter(Boolean).join(' · ')}</div>
+        </div>
+        <div class="expand-indicator">▼</div>
+      </div>
+      ${summary ? `<div class="card-summary">${displaySummary}</div>` : ''}
+      ${billsHtml}
+      ${speakersHtml}
+      <div class="card-detail">
+        <div class="detail-actions">
+          ${sourceUrl ? `<a href="${sourceUrl}" target="_blank">Watch Recording ↗</a>` : ''}
+          <a href="#" onclick="event.stopPropagation(); showFullText(${idx}); return false;">Copy Full Text</a>
+        </div>
+        <div class="transcript" id="transcript-${idx}">
+          <div class="loading">Loading transcript…</div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// ─── Card interaction ───────────────────────────────────
+const transcriptCache = {};
+
+async function toggleCard(el) {
+  const wasExpanded = el.classList.contains('expanded');
+
+  // Close all
+  document.querySelectorAll('.meeting-card.expanded').forEach(c => c.classList.remove('expanded'));
+
+  if (wasExpanded) return;
+
+  el.classList.add('expanded');
+  const idx = el.dataset.idx;
+  const file = el.dataset.file;
+
+  if (!file) return;
+
+  const transcriptEl = document.getElementById('transcript-' + idx);
+
+  // Load transcript if not cached
+  if (!transcriptCache[file]) {
+    const data = await loadTranscript(file);
+    if (data) transcriptCache[file] = data;
+  }
+
+  const data = transcriptCache[file];
+  if (!data || !data.turns || !data.turns.length) {
+    transcriptEl.innerHTML = '<div style="color:var(--text-muted);font-size:0.84rem;">No transcript data available.</div>';
+    return;
+  }
+
+  // Cache full text for searching
+  if (data.full_text) {
+    searchFullText[file] = data.full_text.toLowerCase();
+  }
+
+  // Render turns with speaker colors and search highlighting
+  const colorMap = {};
+  transcriptEl.innerHTML = data.turns.map(turn => {
+    const speaker = turn.speaker || 'Unknown Speaker';
+    const color = getSpeakerColor(speaker, colorMap);
+    const unknown = isUnknown(speaker);
+    const ts = turn.timestamp || '';
+    const text = searchQuery ? highlightText(turn.text, searchQuery) : turn.text;
+    const speakerDisplay = searchQuery ? highlightText(speaker, searchQuery) : speaker;
+    return `
+      <div class="turn ${unknown ? 'unknown-speaker' : ''}" style="border-left-color: ${color}">
+        <div class="turn-speaker" style="color: ${color}">
+          ${speakerDisplay}
+          ${ts ? `<span class="turn-timestamp">${ts}</span>` : ''}
+        </div>
+        <div class="turn-text">${text}</div>
+      </div>
+    `;
+  }).join('');
+
+  // Scroll to card
+  setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+}
+
+function showFullText(idx) {
+  const cards = document.querySelectorAll('.meeting-card');
+  const card = cards[idx];
+  const file = card?.dataset.file;
+  const data = transcriptCache[file];
+  if (data?.full_text) {
+    navigator.clipboard.writeText(data.full_text).then(() => {
+      alert('Full transcript copied to clipboard');
+    });
+  }
+}
+
+// ─── Filters ────────────────────────────────────────────
+let allEntries = [];
+let activeFilter = 'all';
+let searchQuery = '';
+let searchFullText = {};  // cache of full text per file
+
+// ─── Search ─────────────────────────────────────────────
+function buildSearchText(entry) {
+  // Build a big searchable string from all metadata
+  const parts = [
+    getCommitteeName(entry),
+    entry.summary || '',
+    entry.location || '',
+    entry.date || '',
+    entry.day_of_week || '',
+  ];
+
+  // Bills
+  (entry.bills_discussed || []).forEach(b => {
+    if (typeof b === 'string') { parts.push(b); }
+    else { parts.push(b.bill || '', b.title || '', b.sponsor || ''); }
+  });
+
+  // Votes
+  (entry.votes || []).forEach(v => {
+    parts.push(v.bill || '', v.result || '', v.vote || '');
+  });
+
+  // Speakers
+  (entry.speaker_map || []).forEach(s => {
+    parts.push(s.name || '', s.role || '', s.organization || '', s.party || '');
+  });
+
+  return parts.join(' ').toLowerCase();
+}
+
+function fuzzyMatch(text, query) {
+  // Split query into words, all must match somewhere
+  const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+  return words.every(w => text.includes(w));
+}
+
+function searchEntries(entries, query) {
+  if (!query.trim()) return { results: entries, matches: null };
+
+  const results = [];
+  const matches = {};
+
+  entries.forEach((entry, i) => {
+    const searchText = buildSearchText(entry);
+    if (fuzzyMatch(searchText, query)) {
+      results.push(entry);
+      matches[entry.file] = 'metadata';
+      return;
+    }
+
+    // Also search cached full text (from loaded transcripts)
+    if (searchFullText[entry.file]) {
+      if (fuzzyMatch(searchFullText[entry.file], query)) {
+        results.push(entry);
+        matches[entry.file] = 'transcript';
+      }
+    }
+  });
+
+  return { results, matches };
+}
+
+function highlightText(text, query) {
+  if (!query.trim()) return text;
+  const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+  let result = text;
+  words.forEach(word => {
+    const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(${escaped})`, 'gi');
+    result = result.replace(regex, '<span class="highlight">$1</span>');
+  });
+  return result;
+}
+
+function setupSearch() {
+  const input = document.getElementById('searchInput');
+  const info = document.getElementById('searchInfo');
+  let debounceTimer;
+
+  input.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      searchQuery = input.value.trim();
+      const filtered = filterEntries(allEntries);
+      const { results, matches } = searchEntries(filtered, searchQuery);
+
+      if (searchQuery) {
+        info.textContent = `${results.length} meeting${results.length !== 1 ? 's' : ''} match "${searchQuery}"`;
+        info.classList.add('visible');
+      } else {
+        info.classList.remove('visible');
+      }
+
+      renderTimeline(results);
+    }, 200);
+  });
+
+  // Ctrl/Cmd + K to focus search
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      input.focus();
+      input.select();
+    }
+    if (e.key === 'Escape' && document.activeElement === input) {
+      input.value = '';
+      searchQuery = '';
+      info.classList.remove('visible');
+      renderTimeline(filterEntries(allEntries));
+      input.blur();
+    }
+  });
+}
+
+function renderFilters(entries) {
+  const committees = new Set();
+  entries.forEach(e => {
+    const name = getCommitteeName(e);
+    if (name) committees.add(name);
+  });
+
+  const sorted = [...committees].sort();
+  const filtersEl = document.getElementById('filters');
+
+  let html = '<button class="filter-btn active" data-filter="all">All</button>';
+  html += '<button class="filter-btn" data-filter="floor">Floor Sessions</button>';
+  sorted.forEach(c => {
+    // Shorten for button label
+    let label = c.replace('House ', '').replace('House - ', '');
+    if (label.length > 30) label = label.substring(0, 28) + '…';
+    html += `<button class="filter-btn" data-filter="${c}">${label}</button>`;
+  });
+
+  filtersEl.innerHTML = html;
+  filtersEl.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      filtersEl.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilter = btn.dataset.filter;
+      const filtered = filterEntries(allEntries);
+      const { results } = searchEntries(filtered, searchQuery);
+      renderTimeline(results);
+    });
+  });
+}
+
+function filterEntries(entries) {
+  if (activeFilter === 'all') return entries;
+  if (activeFilter === 'floor') {
+    return entries.filter(e => {
+      const name = (getCommitteeName(e) + ' ' + (e.title || '')).toLowerCase();
+      return name.includes('chamber') || name.includes('floor');
+    });
+  }
+  return entries.filter(e => getCommitteeName(e) === activeFilter);
+}
+
+// ─── Timeline render ────────────────────────────────────
+function renderTimeline(entries) {
+  const el = document.getElementById('timeline');
+
+  if (!entries.length) {
+    el.innerHTML = '<div class="empty-state">No meetings match this filter.</div>';
+    return;
+  }
+
+  // Group by date
+  const groups = {};
+  entries.forEach((e, i) => {
+    // Store original index for transcript loading
+    e.__idx = allEntries.indexOf(e);
+    const d = e.date || 'Unknown Date';
+    if (!groups[d]) groups[d] = [];
+    groups[d].push(e);
+  });
+
+  // Sort dates descending
+  const dates = Object.keys(groups).sort().reverse();
+
+  let html = '';
+  dates.forEach(date => {
+    html += `<div class="date-group">`;
+    html += `<div class="date-header">${formatDate(date)}</div>`;
+    groups[date].forEach(entry => {
+      html += renderCard(entry, entry.__idx);
+    });
+    html += '</div>';
+  });
+
+  el.innerHTML = html;
+}
+
+// ─── Stats ──────────────────────────────────────────────
+function renderStats(entries) {
+  const total = entries.length;
+  const bills = new Set();
+  entries.forEach(e => {
+    (e.bills_discussed || []).forEach(b => {
+      bills.add(typeof b === 'string' ? b : b.bill);
+    });
+  });
+  const speakers = new Set();
+  entries.forEach(e => {
+    (e.speaker_map || []).forEach(s => { if (s.name) speakers.add(s.name); });
+  });
+
+  document.getElementById('stats').innerHTML = `
+    <span>${total} meetings</span>
+    <span>${bills.size} bills</span>
+    <span>${speakers.size} legislators</span>
+  `;
+}
+
+// ─── Init ───────────────────────────────────────────────
+async function init() {
+  const raw = await loadIndex();
+
+  // Support both old format (array) and new format ({last_updated, entries})
+  let index, lastUpdated;
+  if (Array.isArray(raw)) {
+    index = raw;
+    lastUpdated = null;
+  } else if (raw && raw.entries) {
+    index = raw.entries;
+    lastUpdated = raw.last_updated || null;
+  } else {
+    index = raw;
+    lastUpdated = null;
+  }
+
+  if (!index || !index.length) {
+    // Try loading individual JSON files
+    document.getElementById('timeline').innerHTML = `
+      <div class="empty-state">
+        <p>No transcript index found. Make sure <strong>index.json</strong> is in the same directory as this HTML file, or in a <strong>transcripts/</strong> subdirectory.</p>
+        <code>
+# Generate the index:<br>
+python daily.py --no-push<br><br>
+# Or place this file inside your transcripts/ folder<br>
+# alongside the JSON transcript files
+        </code>
+      </div>
+    `;
+    return;
+  }
+
+  allEntries = index;
+  renderStats(allEntries);
+  if (lastUpdated) {
+    document.getElementById('lastUpdated').innerHTML = `<span>Last updated: ${lastUpdated}</span>`;
+  }
+  renderFilters(allEntries);
+  renderTimeline(allEntries);
+  setupSearch();
+
+  // Preload all transcript text in background for deep search
+  setTimeout(async () => {
+    for (const entry of allEntries) {
+      if (!entry.file || searchFullText[entry.file]) continue;
+      try {
+        const data = await loadTranscript(entry.file);
+        if (data) {
+          transcriptCache[entry.file] = data;
+          if (data.full_text) {
+            searchFullText[entry.file] = data.full_text.toLowerCase();
+          }
+        }
+      } catch(e) {}
+    }
+  }, 1000);
+}
+
+init();
+</script>
+</body>
+</html>
