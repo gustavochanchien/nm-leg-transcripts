@@ -1,76 +1,174 @@
 {
-  "last_updated": "2026-03-25 14:15",
+  "last_updated": "2026-03-26 09:35",
   "entries": [
     {
-      "file": "2026-02-18_House_-_Government__Elections_And_Indian_Affairs__.json",
-      "meeting_id": "79735",
+      "file": "2026-03-11_Other_-_PSCOC__Room_311__Adjourned_2026-03-11_09_0.json",
+      "meeting_id": "79763",
+      "session": "2026-regular",
+      "date": "2026-03-11",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
+      "duration_seconds": 4531.1,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260311/-1/79763"
+    },
+    {
+      "file": "2026-02-19_House_-_Chamber_Meeting___House_Chamber__Meeting_i.json",
+      "meeting_id": "79761",
+      "session": "2026-regular",
+      "date": "2026-02-19",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
+      "duration_seconds": 13448.3,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260219/-1/79761"
+    },
+    {
+      "file": "2026-02-19_Senate_Chamber_Adjourned_2026-02-19_08_53-12_24.json",
+      "meeting_id": "79762",
+      "session": "2026-regular",
+      "date": "2026-02-19",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
+      "duration_seconds": 12691.1,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260219/-1/79762"
+    },
+    {
+      "file": "2026-02-18_House_-_Health_and_Human_Services__Room_307__House.json",
+      "meeting_id": "79736",
       "session": "2026-regular",
       "date": "2026-02-18",
-      "committee": "House Government, Elections and Indian Affairs",
+      "committee": "House Health and Human Services",
       "day_of_week": "Wednesday",
-      "start_time": "9:34 AM",
-      "end_time": "10:13 AM",
-      "location": "Room 305",
-      "duration_seconds": 2364.7,
+      "start_time": "09:38 AM",
+      "end_time": "10:16 AM",
+      "location": "Room 307",
+      "duration_seconds": 2316.4,
       "bills_discussed": [
         {
-          "bill": "HM 64",
-          "title": "Capital Outlay Technical Assistance for Tribes",
-          "sponsor": "Representative Harry Garcia"
-        },
-        {
-          "bill": "HM 65",
-          "title": "Firearm Violence Public Health Task Force",
-          "sponsor": "Representative Janelle Torres Velasquez"
+          "bill": "SB 246",
+          "title": "Massage Therapy Practice Act Changes",
+          "sponsor": "Senator Pat Woods"
         }
       ],
       "votes": [
         {
-          "bill": "HM 64",
+          "bill": "SB 246",
           "result": "do pass",
-          "vote": "unanimous"
-        },
-        {
-          "bill": "HM 65",
-          "result": "do pass",
-          "vote": "4-3"
+          "vote": "5-4"
         }
       ],
       "speaker_map": [
         {
-          "name": "D. Wonda Johnson",
+          "name": "Elizabeth Thomson",
           "role": "Committee Chair",
           "party": "D",
           "confidence": "high"
         },
         {
-          "name": "Charlotte Little",
-          "role": "Vice Chair",
-          "party": "D",
-          "confidence": "high"
-        },
-        {
-          "name": "John Block",
-          "role": "Ranking Member",
+          "name": "Pat Woods",
+          "role": "Senator / Bill Sponsor",
           "party": "R",
           "confidence": "high"
         },
         {
-          "name": "Harry Garcia",
-          "role": "Representative",
-          "party": "D",
+          "name": "Melissa Salazar",
+          "role": "Director of Boards and Commissions, RLD",
+          "party": "N/A",
           "confidence": "high"
         },
         {
-          "name": "Janelle Torres Velasquez",
+          "name": "Kathleen Cate",
           "role": "Representative",
           "party": "D",
           "confidence": "high"
         }
       ],
-      "summary": "The committee heard two memorials. HM 64, which requests technical assistance for tribal capital outlay projects, passed unanimously. HM 65, which seeks to establish a public health task force to study firearm violence and safety, passed on a 4-3 party-line vote following debate over the inclusion of gun safety instructors on the task force and data linking climate change to suicide rates.",
-      "num_turns": 37,
+      "summary": "The committee heard SB 246, which proposes licensing and inspection requirements for massage therapy establishments to combat human trafficking and ensure hygiene. Significant debate occurred regarding the privacy of clients during unannounced inspections, with several members expressing concern over inspectors entering rooms while sessions are in progress. The bill received a 'do pass' recommendation on a 5-4 vote.",
+      "num_turns": 61,
       "num_speakers": 11,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79736"
+    },
+    {
+      "file": "2026-02-18_House_-_Appropriations_and_Finance__Room_307__Hous.json",
+      "meeting_id": "79756",
+      "session": "2026-regular",
+      "date": "2026-02-18",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
+      "duration_seconds": 2196.4,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79756"
+    },
+    {
+      "file": "2026-02-18_House_-_Chamber_Meeting__House_Chamber__Meeting_in.json",
+      "meeting_id": "79742",
+      "session": "2026-regular",
+      "date": "2026-02-18",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
+      "duration_seconds": 24504.0,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79742"
+    },
+    {
+      "file": "2026-02-18_House_-_Government__Elections_And_Indian_Affairs__.json",
+      "meeting_id": "79735",
+      "session": "2026-regular",
+      "date": "2026-02-18",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
+      "duration_seconds": 2364.7,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
       "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79735"
     },
     {
@@ -78,62 +176,114 @@
       "meeting_id": "79744",
       "session": "2026-regular",
       "date": "2026-02-18",
-      "committee": "House Taxation and Revenue",
-      "day_of_week": "Wednesday",
-      "start_time": "2:07 PM",
-      "end_time": "2:26 PM",
-      "location": "Room 317",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
       "duration_seconds": 1091.2,
-      "bills_discussed": [
-        {
-          "bill": "SB 240",
-          "title": "Capital Outlay Projects",
-          "sponsor": "Senate Finance Committee"
-        }
-      ],
-      "votes": [
-        {
-          "bill": "SB 240",
-          "result": "do pass",
-          "vote": "9-3"
-        }
-      ],
-      "speaker_map": [
-        {
-          "name": "Representative Christine Chandler",
-          "role": "Committee Chair",
-          "party": "D",
-          "confidence": "high"
-        },
-        {
-          "name": "Representative Harry Lente",
-          "role": "Bill Presenter / Chair of Appropriations",
-          "party": "D",
-          "confidence": "high"
-        },
-        {
-          "name": "Kelly O'Donnell",
-          "role": "Staff Analyst",
-          "party": "N/A",
-          "confidence": "high"
-        },
-        {
-          "name": "Wesley Billingsley",
-          "role": "Director of Capital Outlay, DFA",
-          "party": "N/A",
-          "confidence": "high"
-        },
-        {
-          "name": "Representative Rod Montoya",
-          "role": "Committee Member",
-          "party": "R",
-          "confidence": "high"
-        }
-      ],
-      "summary": "The committee reviewed and passed the $1.3 billion Capital Outlay bill (SB 240). Debate centered on a $15 million appropriation for a hospital purchase in San Miguel County, which some Republican members suspected was intended for reproductive health services. There was also a technical discussion regarding a location error for the Navajo Code Talker Museum in the bill's supplemental charts.",
-      "num_turns": 33,
-      "num_speakers": 12,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
       "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79744"
+    },
+    {
+      "file": "2026-02-18_Senate_-_Finance__Room_322__Senate_Finance_Adjourn.json",
+      "meeting_id": "79748",
+      "session": "2026-regular",
+      "date": "2026-02-18",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
+      "duration_seconds": 236.2,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79748"
+    },
+    {
+      "file": "2026-02-18_Senate_-_Judiciary__Room_321__Senate_Judiciary_Adj.json",
+      "meeting_id": "79752",
+      "session": "2026-regular",
+      "date": "2026-02-18",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
+      "duration_seconds": 2394.4,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79752"
+    },
+    {
+      "file": "2026-02-18_Senate_-_Rules__Room_321__Adjourned_2026-02-18_16_.json",
+      "meeting_id": "79750",
+      "session": "2026-regular",
+      "date": "2026-02-18",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
+      "duration_seconds": 288.3,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79750"
+    },
+    {
+      "file": "2026-02-18_Senate_Chamber_Adjourned_2026-02-18_18_51-22_05.json",
+      "meeting_id": "79755",
+      "session": "2026-regular",
+      "date": "2026-02-18",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
+      "duration_seconds": 11626.7,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79755"
+    },
+    {
+      "file": "2026-02-18_Senate_Chamber_Adjourned_2026-02-18_22_25-23_07.json",
+      "meeting_id": "79757",
+      "session": "2026-regular",
+      "date": "2026-02-18",
+      "committee": "",
+      "day_of_week": "",
+      "start_time": "",
+      "end_time": "",
+      "location": "",
+      "duration_seconds": 2560.2,
+      "bills_discussed": [],
+      "votes": [],
+      "speaker_map": [],
+      "summary": "",
+      "num_turns": 0,
+      "num_speakers": 0,
+      "source_url": "https://sg001-harmony.sliq.net/00293/Harmony/en/PowerBrowser/PowerBrowserV2/20260218/-1/79757"
     },
     {
       "file": "2026-02-17_House_-_Investigatory_Subcommittee__Room_315__Adjo.json",
